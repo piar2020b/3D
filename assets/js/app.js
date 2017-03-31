@@ -12,7 +12,7 @@ var questions = [{
 	inCorrect1: "Párizs",
 	inCorrect2: "London",
 	inCorrect3: "Berlin",
-	reward: 34,
+	reward: 34
 }];
 var displayQuestion = function(nth) {
 	$('.question').text(questions[nth].question);
