@@ -48,16 +48,16 @@ var user = function(color, position) {
 };
 var icons = ["red","blue","green","red","blue","green","red","blue","green","red","blue","green","red","blue","green","red","blue","green"];
 var displayIcons = function() {
-	for (var i = 0; i < 3; i++) {
+	for (var i = 0; i < icons.length; i++) {
 		if (i === 1) {
 			$('.statusbar').append('<div id="'+i+'-statusbar" class="statusbar-item">'+user(icons[i], 'statusbar-img-main')+'</div>');
+		}
+		else if (i >= 3) {
+			$('.sidebar-item-container').append('<div id="'+(i-2)+'-sidebar" class="sidebar-item">'+user(icons[i], 'sidebar-img')+'</div>');
 		}
 		else {
 			$('.statusbar').append('<div id="'+i+'-statusbar" class="statusbar-item">'+user(icons[i], 'statusbar-img')+'</div>');
 		}
-	}
-	for (var i; i < icons.length; i++) {
-		$('.sidebar-item-container').append('<div id="'+(i-2)+'-sidebar" class="sidebar-item">'+user(icons[i], 'sidebar-img')+'</div>');
 	}
 };
 displayIcons();
