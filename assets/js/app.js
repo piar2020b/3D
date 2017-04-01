@@ -20,7 +20,12 @@ var questions = [{
 	inCorrect3: "Berlin",
 	reward: 34
 }];
+var checkAnswer = function(answer, seriel) {
+	return questions[seriel].correct === answer;
+};
+var seriel;
 var displayQuestion = function(nth) {
+	seriel = nth;
 	$('.question').text(questions[nth].question);
 	switch (Math.floor(Math.random() * 4) + 1) {
 		case 1:
