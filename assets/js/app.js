@@ -17,7 +17,8 @@ var questions = [{
 	correct: "Brüsszel",
 	inCorrect1: "Párizs",
 	inCorrect2: "London",
-	inCorrect3: "Berlin"
+	inCorrect3: "Berlin",
+	reward: 30
 }, {
 	question: "Hány nemzet vezetője írta alá az első Európai Uniót alapító szerződést?",
 	correct: "6",
@@ -106,5 +107,20 @@ var generateIcons = function(playtime, players) {
 		}
 	}
 };
+$('.answer').click(function() {
+	var answer = $(this).text();
+	if (checkAnswer(answer, seriel)) {
+		$(this).append('<img src="assets/images/tick.png" class="response tick">');
+		$('.jumbotron').text(questions[seriel].reward);
+		$('.question').remove();
+	}
+	else {
+		$(this).append('<img src="assets/images/x.png" class="response x">');
+		$('.answer:contains('+questions[seriel].correct+')').append('<img src="assets/images/tick.png" class="response tick">');
+		$('.question').remove();
+		$('.display').append('<img src="assets/images/emoji_sad.png" class="emoji">');
+	}
+});
 generateIcons(60,4);
 displayIcons();
+displayQuestion(0);
