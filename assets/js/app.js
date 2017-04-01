@@ -12,23 +12,10 @@ $(".question").click(function() {
 		$(".sidebar-on").toggleClass("sidebar-on-hidden");
 	}
 });
-var questions = [{
-	question: "Melyik város az Európai Unió központja?",
-	correct: "Brüsszel",
-	inCorrect1: "Párizs",
-	inCorrect2: "London",
-	inCorrect3: "Berlin",
-	reward: 30
-}, {
-	question: "Hány nemzet vezetője írta alá az első Európai Uniót alapító szerződést?",
-	correct: "6",
-	inCorrect1: "4",
-	inCorrect2: "5",
-	inCorrect3: "3"
-}];
 var checkAnswer = function(answer, seriel) {
 	return questions[seriel].correct === answer;
 };
+var questions;
 var seriel;
 var icons;
 var displayQuestion = function(nth) {
