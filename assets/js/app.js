@@ -17,8 +17,13 @@ var questions = [{
 	correct: "Brüsszel",
 	inCorrect1: "Párizs",
 	inCorrect2: "London",
-	inCorrect3: "Berlin",
-	reward: 34
+	inCorrect3: "Berlin"
+}, {
+	question: "Hány nemzet vezetője írta alá az első Európai Uniót alapító szerződést?",
+	correct: "6",
+	inCorrect1: "4",
+	inCorrect2: "5",
+	inCorrect3: "3"
 }];
 var checkAnswer = function(answer, seriel) {
 	return questions[seriel].correct === answer;
