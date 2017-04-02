@@ -47,10 +47,11 @@ main
 			margin-top: -10vh
 		img.next
 			position: absolute
-			transform: scale(-1, 1)
+			transform: scale(-1, 1) /* Tükrözés */
 			right: 10px
 			top: 25vh
 			width: 100px
+			z-index: 99 /* Ha fölé menne egy pipa, akkor is klikkelhető legyen */
 	div.answers-container
 		height: 50vh
 		width: 100%
