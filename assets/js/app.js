@@ -97,22 +97,25 @@ var generateIcons = function(playtime, players) {
 		}
 	}
 };
-$('.answer').click(function() {
-	var answer = $(this).text();
+var giveAnswer = function(event) {
+	var answer = $(event).text();
 	if (checkAnswer(answer, seriel)) {
-		$(this).append('<img src="assets/images/tick.png" class="response tick">');
+		$(event).append('<img src="assets/images/tick.png" class="response tick">');
 		$('.jumbotron').text(questions[seriel].reward);
 		$('.question').empty();
 		$('.next').toggleClass('hidden');
+		$('.answer').off('click');
 	}
 	else {
-		$(this).append('<img src="assets/images/x.png" class="response x">');
+		$(event).append('<img src="assets/images/x.png" class="response x">');
 		$('.answer:contains('+questions[seriel].correct+')').append('<img src="assets/images/tick.png" class="response tick">');
 		$('.question').empty();
 		$('.emoji').toggleClass('hidden');
 		$('.next').toggleClass('hidden');
+		$('.answer').off('click');
 	}
-});
+};
+$('.answer').click(function(){giveAnswer(this);});
 generateIcons(60,4);
 displayIcons();
 displayQuestion(0);
@@ -122,4 +125,5 @@ $('.next').click(function() {
 	displayIcons();
 	$('.emoji').not('.hidden').toggleClass('hidden');
 	$('.next').toggleClass('hidden');
+	$('.answer').click(function(){giveAnswer(this);});
 });
