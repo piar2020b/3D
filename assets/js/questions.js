@@ -310,4 +310,508 @@ var questions = [{
 	'inCorrect2': 'Genova',
 	'inCorrect3': 'Verona',
 	'page': '150'
+}, {
+	'question': 'Hányadik helyen van Svájc a világ országai közül, az egy főre eső GDP tekintetében?',
+	'correct': '7.',
+	'inCorrect1': '5.',
+	'inCorrect2': '10.',
+	'inCorrect3': '8.',
+	'page': '151'
+}, {
+	'question': 'Hányadik helyen van Ausztria a világ országai közül, az egy főre eső GDP tekintetében?',
+	'correct': '13.',
+	'inCorrect1': '11.',
+	'inCorrect2': '15.',
+	'inCorrect3': '12.',
+	'page': '151'
+}, {
+	'question': 'Hanyadik helyen áll Svájc a világ országai közül, az emberi fejlődési index tekintetében?',
+	'correct': '3.',
+	'inCorrect1': '10.',
+	'inCorrect2': '1.',
+	'inCorrect3': '9.',
+	'page': '151'
+}, {
+	'question': 'Hányadik helyen áll Ausztria a világ országai közül, az emberi fejlődési index tekintetében?',
+	'correct': '21.',
+	'inCorrect1': '18.',
+	'inCorrect2': '25.',
+	'inCorrect3': '28.',
+	'page': '151'
+}, {
+	'question': 'Hanyadik helyen áll Svájc a világ országai közül, a  Világgazdasági fórum, versenyképességi lista tekintetében?',
+	'correct': '1.',
+	'inCorrect1': '3.',
+	'inCorrect2': '5.',
+	'inCorrect3': '6.',
+	'page': '151'
+}, {
+	'question': 'Hányadik helyen áll Ausztria a világ országai közül, a Világgazdasági fórum, versenyképességi lista tekintetében?',
+	'correct': '16.',
+	'inCorrect1': '15.',
+	'inCorrect2': '14.',
+	'inCorrect3': '13.',
+	'page': '151'
+}, {
+	'question': 'A népesség hány %-a francia ajkú, Svájcban?',
+	'correct': '0,226',
+	'inCorrect1': '0,258',
+	'inCorrect2': '0,202',
+	'inCorrect3': '0,205',
+	'page': '153'
+}, {
+	'question': 'A népesség hány %-a német ajkú Svájcban?',
+	'correct': '0,645',
+	'inCorrect1': '0,607',
+	'inCorrect2': '0,404',
+	'inCorrect3': '0,702',
+	'page': '153'
+}, {
+	'question': 'A népesség hány %-a olasz ajkú Svájcban?',
+	'correct': '0,083',
+	'inCorrect1': '0,1',
+	'inCorrect2': '0,2',
+	'inCorrect3': '0,15',
+	'page': '153'
+}, {
+	'question': 'A népesség hány %-a rétoromán ajkú Svájcban?',
+	'correct': '0,005',
+	'inCorrect1': '0,002',
+	'inCorrect2': '0,01',
+	'inCorrect3': '0,015',
+	'page': '153'
+}, {
+	'question': 'A Svájci népesség hány %-a él Mittellandon?',
+	'correct': '0,75',
+	'inCorrect1': '0,5',
+	'inCorrect2': '0,85',
+	'inCorrect3': '0,65',
+	'page': '153'
+}, {
+	'question': 'Melyik osztrák tartományban él a legtöbb magyar?',
+	'correct': 'Burgelland',
+	'inCorrect1': 'Karintia',
+	'inCorrect2': 'Steier orzság',
+	'inCorrect3': 'Tirol',
+	'page': '153'
+}, {
+	'question': 'Melyik osztrák tartományban él a legtöbb horvát?',
+	'correct': 'Burgelland',
+	'inCorrect1': 'Karintia',
+	'inCorrect2': 'Steier orzság',
+	'inCorrect3': 'Tirol',
+	'page': '153'
+}, {
+	'question': 'Melyik osztrák tartományban él a legtöbb szlovén?',
+	'correct': 'Karintia',
+	'inCorrect1': 'Burgelland',
+	'inCorrect2': 'Steier orzság',
+	'inCorrect3': 'Tirol',
+	'page': '153'
+}, {
+	'question': 'Hol deklarálták Svájc örök semlegességét?',
+	'correct': '1815-ös Bécsi kongresszus',
+	'inCorrect1': '1920-as párizsi béke',
+	'inCorrect2': '1945 Jalta',
+	'inCorrect3': '1957 Róma',
+	'page': '153'
+}, {
+	'question': 'Mikor csatlakozott Svájc az ENSZ-hez?',
+	'correct': '2002',
+	'inCorrect1': '1967',
+	'inCorrect2': '1988',
+	'inCorrect3': '1952',
+	'page': '153'
+}, {
+	'question': 'Mikor mondták ki Ausztria örök semlegességét?',
+	'correct': '1955',
+	'inCorrect1': '1815',
+	'inCorrect2': '1957',
+	'inCorrect3': '1960',
+	'page': '153'
+}, {
+	'question': 'Mikor lépett be Ausztria az ENSZ-be?',
+	'correct': '1955',
+	'inCorrect1': '1965',
+	'inCorrect2': '1957',
+	'inCorrect3': '1967',
+	'page': '153'
+}, {
+	'question': 'Mikor lépett be Ausztria az EU-ba?',
+	'correct': '1995',
+	'inCorrect1': '1981',
+	'inCorrect2': '2002',
+	'inCorrect3': '2004',
+	'page': '153'
+}, {
+	'question': 'Melyik termék teszi ki Svájc mezőgazdasági exportjának két harmadát?',
+	'correct': 'sajt',
+	'inCorrect1': 'csokoládé',
+	'inCorrect2': 'tej',
+	'inCorrect3': 'joghurt',
+	'page': '153'
+}, {
+	'question': 'Hányadik a világ vállalatai közül a Nestlé az árbevétele alapján?',
+	'correct': '69',
+	'inCorrect1': '10',
+	'inCorrect2': '34',
+	'inCorrect3': '89',
+	'page': '153'
+}, {
+	'question': 'Milyen jelentős ipari termelés van Baselben?',
+	'correct': 'Gyógyszer',
+	'inCorrect1': 'óra',
+	'inCorrect2': 'autó',
+	'inCorrect3': 'csokoládé',
+	'page': '154'
+}, {
+	'question': 'Melyik ásványból van a legtöbb Ausztriában?',
+	'correct': 'magnezit',
+	'inCorrect1': 'kova',
+	'inCorrect2': 'bazalt',
+	'inCorrect3': 'kőszén',
+	'page': '154'
+}, {
+	'question': 'Melyik Európa legmagasabban fekvő városa?',
+	'correct': 'Davos',
+	'inCorrect1': 'Salzburg',
+	'inCorrect2': 'Bern',
+	'inCorrect3': 'Zürich',
+	'page': '155'
+}, {
+	'question': 'Milyen szolgáltatások magas szintűek Svájcban?',
+	'correct': 'Banki',
+	'inCorrect1': 'Egészségügyi',
+	'inCorrect2': 'Vendéglátóipari',
+	'inCorrect3': 'oktatási',
+	'page': '155'
+}, {
+	'question': 'Melyik osztrák város híres az ünnepi játékairól?',
+	'correct': 'Salzburg',
+	'inCorrect1': 'Graz',
+	'inCorrect2': 'Bécs',
+	'inCorrect3': 'Linz',
+	'page': '155'
+}, {
+	'question': 'Hol rendezik meg évente a híres világgazdasági fórumot?',
+	'correct': 'Davos',
+	'inCorrect1': 'London',
+	'inCorrect2': 'Frankfurt',
+	'inCorrect3': 'Berlin',
+	'page': '155'
+}, {
+	'question': 'Hány dollár bevétele származott Ausztriának a turizmusból, 2012-ben?',
+	'correct': '22 milliárd',
+	'inCorrect1': '18 milliárd',
+	'inCorrect2': '15 milliárd',
+	'inCorrect3': '30 milliárd',
+	'page': '156'
+}, {
+	'question': 'Hány dollár bevétele származott Svájcnak a turizmusból, 2012-ben?',
+	'correct': '19 milliárd',
+	'inCorrect1': '10 milliárd',
+	'inCorrect2': '5 milliárd ',
+	'inCorrect3': '15 milliárd',
+	'page': '156'
+}, {
+	'question': 'Milyen hosszú volt a Berlini fal?',
+	'correct': '155 km',
+	'inCorrect1': '80 km',
+	'inCorrect2': '300 km',
+	'inCorrect3': '250km',
+	'page': '157'
+}, {
+	'question': 'Melyik évben vették körbe drótokkal NY Berlint?',
+	'correct': '1961',
+	'inCorrect1': '1955',
+	'inCorrect2': '1948',
+	'inCorrect3': '1957',
+	'page': '157'
+}, {
+	'question': 'Mikor egyesülta két németország?',
+	'correct': '1990 ősz',
+	'inCorrect1': '1990 tavasz',
+	'inCorrect2': '1989 tél',
+	'inCorrect3': '1991 ősz',
+	'page': '157'
+}, {
+	'question': 'Mikor bomlott fel a szovjetúnió?',
+	'correct': '1991',
+	'inCorrect1': '1990',
+	'inCorrect2': '1989',
+	'inCorrect3': '1988',
+	'page': '157'
+}, {
+	'question': 'Mit nevezünk Európai Megállapodásoknak?',
+	'correct': 'Az EU és a volt szocialista országok közti megállapodásokat',
+	'inCorrect1': 'Az EU tagállamainak a megállapodásai?',
+	'inCorrect2': 'A szocialista országok megállapodásai egymással?',
+	'inCorrect3': 'Az EU megállapodásai arab országokkal',
+	'page': '157'
+}, {
+	'question': 'Hogy hívták a szocialista országok katonai szövetségét?',
+	'correct': 'Varsói Szerződés',
+	'inCorrect1': 'Krakkói Szerződés',
+	'inCorrect2': 'COMECOM',
+	'inCorrect3': 'Moszkvai Szövetség',
+	'page': '157'
+}, {
+	'question': 'Hol található Eirópa egyik legnagyobb aranylelőhelye?',
+	'correct': 'Verespatak (románia)',
+	'inCorrect1': 'Verespatak (szlovákia)',
+	'inCorrect2': 'Verespatak (ukrajna)',
+	'inCorrect3': 'Verespatak (magyarország)',
+	'page': '157'
+}, {
+	'question': 'Mikor krült cianiddal szennyezett víz a Tiszába?',
+	'correct': '2000',
+	'inCorrect1': '2001',
+	'inCorrect2': '2002',
+	'inCorrect3': '20003',
+	'page': '157'
+}, {
+	'question': 'Melyik településről került a cianid a Tiszába?',
+	'correct': 'Nagybánya',
+	'inCorrect1': 'Verespatak ',
+	'inCorrect2': 'Szolnok',
+	'inCorrect3': 'Szeged',
+	'page': '157'
+}, {
+	'question': 'A régió országai közül melyikben a legmagasabb a széndioxid kibocsátás?',
+	'correct': 'Lengyelország',
+	'inCorrect1': 'Csehország',
+	'inCorrect2': 'Szlovákia',
+	'inCorrect3': 'Magyarország',
+	'page': '157'
+}, {
+	'question': 'Hány fővel nőtt a 13 országgal bűvülő EU?',
+	'correct': '110 millió',
+	'inCorrect1': '200 millió',
+	'inCorrect2': '150 millió',
+	'inCorrect3': '180 millió',
+	'page': '158'
+}, {
+	'question': 'A 2004-es csatlakozás következtében mennyivel csökkent az egy főre jutó jövedelem az EU-ban?',
+	'correct': '0,2',
+	'inCorrect1': '0,25',
+	'inCorrect2': '0,15',
+	'inCorrect3': '0,3',
+	'page': '158'
+}, {
+	'question': 'A 2004-es csatlakozás következtében mennyivel csökkent a GDP? ',
+	'correct': '0,05',
+	'inCorrect1': '0,08',
+	'inCorrect2': '0,1',
+	'inCorrect3': '0,03',
+	'page': '158'
+}, {
+	'question': 'Az összlakosság hány százaléka magyar Szlovákiában?',
+	'correct': '0,085',
+	'inCorrect1': '0,095',
+	'inCorrect2': '7.5%',
+	'inCorrect3': '0,07',
+	'page': '159'
+}, {
+	'question': 'Az összlakosság hány százaléka magyar Romániában?',
+	'correct': '6.5%',
+	'inCorrect1': '0,06',
+	'inCorrect2': '7.5%',
+	'inCorrect3': '0,08',
+	'page': '159'
+}, {
+	'question': 'Mi Székelyföld kulturális központja?',
+	'correct': 'Marosvásárhely',
+	'inCorrect1': 'Sepsiszentgyörgy',
+	'inCorrect2': 'Csíkszereda',
+	'inCorrect3': 'Csíksomlyó',
+	'page': '159'
+}, {
+	'question': 'Mekorra Lengyelország népessége?',
+	'correct': '38,5 millió',
+	'inCorrect1': '40.2 millió',
+	'inCorrect2': '45 millió',
+	'inCorrect3': '32 millió',
+	'page': '159'
+}, {
+	'question': 'Melyik közép-európai ország volt az uniós források legnagyobb hasznonélvezője?',
+	'correct': 'Lengyelország',
+	'inCorrect1': 'Szlovákia',
+	'inCorrect2': 'Csehország',
+	'inCorrect3': 'Magyarország',
+	'page': '159'
+}, {
+	'question': 'Melyik országban vezették be a régiónkból először az eurót?',
+	'correct': 'Szlovákia',
+	'inCorrect1': 'Csehország',
+	'inCorrect2': 'Lengyelország',
+	'inCorrect3': 'Szlovénia',
+	'page': '159'
+}, {
+	'question': 'Melyik országban zajlott a ""televíziós forradalom""?',
+	'correct': 'Románia',
+	'inCorrect1': 'Törökország',
+	'inCorrect2': 'Bulgária',
+	'inCorrect3': 'Szlovénia',
+	'page': '159'
+}, {
+	'question': 'Mely lengyel városban van köolajfinomító?',
+	'correct': 'Gdansk',
+	'inCorrect1': 'Krakkó',
+	'inCorrect2': 'Bielsko Biala',
+	'inCorrect3': 'Varsó',
+	'page': '159'
+}, {
+	'question': 'Mely lengyel város a szénbányászat központja?',
+	'correct': 'Katowice',
+	'inCorrect1': 'Gdansk',
+	'inCorrect2': 'Varsó',
+	'inCorrect3': 'Krakkó',
+	'page': '159'
+}, {
+	'question': 'Melyik román városban van az egyetlen atomerőmű?',
+	'correct': 'Dobrudzsa',
+	'inCorrect1': 'Bukarest',
+	'inCorrect2': 'Brassó',
+	'inCorrect3': 'Kolozsvár',
+	'page': '160'
+}, {
+	'question': 'Melyik francia autómárkának van gyára Nagyszombaton?',
+	'correct': 'Citroen',
+	'inCorrect1': 'Peugeot',
+	'inCorrect2': 'Renault',
+	'inCorrect3': 'Volvo',
+	'page': '160'
+}, {
+	'question': 'Hol van a Zetor traktorgyár?',
+	'correct': 'Brno',
+	'inCorrect1': 'Olomouc',
+	'inCorrect2': 'Kassa',
+	'inCorrect3': 'Prága',
+	'page': '161'
+}, {
+	'question': 'Melyik növény Csehország főbb terménye?',
+	'correct': 'komló',
+	'inCorrect1': 'árpa',
+	'inCorrect2': 'búza',
+	'inCorrect3': 'kukorica ',
+	'page': '162'
+}, {
+	'question': 'Melyik országban helyezkedik el Karlovy Vary?',
+	'correct': 'Csehország',
+	'inCorrect1': 'Szlovákia',
+	'inCorrect2': 'Szlovénia',
+	'inCorrect3': 'Ukrajna',
+	'page': '163'
+}, {
+	'question': 'Melyik országban helyezkedik el Zakopane?',
+	'correct': 'Lengyelország',
+	'inCorrect1': 'Csehország',
+	'inCorrect2': 'Szlovákia',
+	'inCorrect3': 'Szlovénia',
+	'page': '163'
+}, {
+	'question': 'Mikor zajlott a délszláv polgárháború?',
+	'correct': '1991-2001',
+	'inCorrect1': '1989-1999',
+	'inCorrect2': '1991-1998',
+	'inCorrect3': '1991-2002',
+	'page': '164'
+}, {
+	'question': 'Jelenleg hány országból áll az egykori Jugoszlávia?',
+	'correct': '7',
+	'inCorrect1': '8',
+	'inCorrect2': '6',
+	'inCorrect3': '9',
+	'page': '164'
+}, {
+	'question': 'Mikor lett független Montenegró?',
+	'correct': '2006',
+	'inCorrect1': '2002',
+	'inCorrect2': '2004',
+	'inCorrect3': '2008',
+	'page': '164'
+}, {
+	'question': 'Mikor lett független Koszovó?',
+	'correct': '2008',
+	'inCorrect1': '2006',
+	'inCorrect2': '2009',
+	'inCorrect3': '2010',
+	'page': '164'
+}, {
+	'question': 'Mely volt Jugoszláv tagország EU tagjelölt?',
+	'correct': 'Macedonia',
+	'inCorrect1': 'Koszovó',
+	'inCorrect2': 'Bosznia',
+	'inCorrect3': 'Szlovénia',
+	'page': '164'
+}, {
+	'question': 'Melyik volt Jugoszláv tagország nem EU tagjelölt?',
+	'correct': 'Koszovó',
+	'inCorrect1': 'macedónia',
+	'inCorrect2': 'Montenegró',
+	'inCorrect3': 'Szerbia',
+	'page': '164'
+}, {
+	'question': 'Hogyan nevezzük a Magyarországon éló szlovéneket?',
+	'correct': 'vendek',
+	'inCorrect1': 'tótok',
+	'inCorrect2': 'tirpákok',
+	'inCorrect3': 'bunyevácok',
+	'page': '165'
+}, {
+	'question': 'Mikor csalakozott az EU-hoz Horvátország?',
+	'correct': '2013',
+	'inCorrect1': '2011',
+	'inCorrect2': '2014',
+	'inCorrect3': '2015',
+	'page': '165'
+}, {
+	'question': 'Horvátország lakosságának hány százaléka volt szerb Jugoszlávia idején?',
+	'correct': 'egy nyolcad',
+	'inCorrect1': 'egy hatod',
+	'inCorrect2': 'egy heted',
+	'inCorrect3': 'egy ötöd',
+	'page': '165'
+}, {
+	'question': 'Melyik Horvátország második legnagyobb kikötője?',
+	'correct': 'Split',
+	'inCorrect1': 'Dubrovnik',
+	'inCorrect2': 'Rijeka',
+	'inCorrect3': 'zadar',
+	'page': '166'
+}, {
+	'question': 'Hány magyar él a Vajdaságban?',
+	'correct': '280000',
+	'inCorrect1': '250000',
+	'inCorrect2': '180000',
+	'inCorrect3': '100000',
+	'page': '167'
+}, {
+	'question': 'Mit jelent a Montenegró elnevezés?',
+	'correct': 'Fekete hegyek országa',
+	'inCorrect1': 'Fekete kezek országa',
+	'inCorrect2': 'Negrók országa',
+	'inCorrect3': 'Fekete hold országa',
+	'page': '167'
+}, {
+	'question': 'Milyen nemzetiségűek élnek Hercegovina területén?',
+	'correct': 'horvát és muszlim',
+	'inCorrect1': 'horvát és szerb',
+	'inCorrect2': 'szerb és bosnyák',
+	'inCorrect3': 'bosnyák és muszlim',
+	'page': '168'
+}, {
+	'question': 'Melyik városban van a híres öreg híd, amit a háború után újjá kellett építeni?',
+	'correct': 'Mostar',
+	'inCorrect1': 'Szarajevó',
+	'inCorrect2': 'Dubrovnik',
+	'inCorrect3': 'Split',
+	'page': '168'
+}, {
+	'question': 'Ukrajna hány százaléka ukrán?',
+	'correct': '0,78',
+	'inCorrect1': '0,72',
+	'inCorrect2': '0,87',
+	'inCorrect3': '0,91',
+	'page': '169'
 }];
