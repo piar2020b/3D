@@ -70,31 +70,9 @@ var displayIcons = function() {
 var generateIcons = function(playtime, players) {
 	var count = playtime / 2;
 	icons = [];
+    var colors = ["cyan", "violet", "orange", "black", "gold", "red", "blue", "green"];
 	for (var i = 1; i <= count; i++) {
-		if (i % 8 === 0 && players === 8) {
-			icons.push("cyan");
-		}
-		else if (i % 7 === 0 && players >= 7) {
-			icons.push("violet");
-		}
-		else if (i % 6 === 0 && players >= 6) {
-			icons.push("orange");
-		}
-		else if (i % 5 === 0 && players >= 5) {
-			icons.push("black");
-		}
-		else if (i % 4 === 0 && players >= 4) {
-			icons.push("gold");
-		}
-		else if (i % 3 === 0 && players >= 3) {
-			icons.push("red");
-		}
-		else if (i % 2 === 0 && players >= 2) {
-			icons.push("blue");
-		}
-		else {
-			icons.push("green");
-		}
+    	icons.push(colors[i % players]);
 	}
 };
 var giveAnswer = function(event) {
