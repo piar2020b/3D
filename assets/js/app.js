@@ -103,6 +103,7 @@ var giveAnswer = function(event) {
 		$(event).append('<img src="assets/images/tick.png" class="response tick">');
 		$('.jumbotron').text(questions[seriel].reward);
 		$('.question').empty();
+		$('.emoji-happy').toggleClass('hidden');
 		$('.next').toggleClass('hidden');
 		$('.answer').off('click');
 	}
@@ -110,7 +111,7 @@ var giveAnswer = function(event) {
 		$(event).append('<img src="assets/images/x.png" class="response x">');
 		$('.answer:contains('+questions[seriel].correct+')').append('<img src="assets/images/tick.png" class="response tick">');
 		$('.question').empty();
-		$('.emoji').toggleClass('hidden');
+		$('.emoji-sad').toggleClass('hidden');
 		$('.next').toggleClass('hidden');
 		$('.answer').off('click');
 	}
