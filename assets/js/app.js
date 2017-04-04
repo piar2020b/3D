@@ -100,11 +100,17 @@ $('.answer').click(function(){giveAnswer(this);});
 generateIcons(60,4);
 displayIcons();
 displayQuestion(0);
-$('.next').click(function() {
+var next = function() {
 	displayQuestion(seriel+1);
 	icons.shift();
 	displayIcons();
 	$('.emoji').not('.hidden').toggleClass('hidden');
 	$('.next').toggleClass('hidden');
 	$('.answer').click(function(){giveAnswer(this);});
+};
+$('.next').click(next);
+$(document).keypress(function(e) {
+	if(e.which === 13 && !$('.next').hasClass('hidden')) {
+		next();
+	}
 });
