@@ -22,6 +22,7 @@ var displayQuestion = function(nth) {
 	seriel = nth;
 	console.log(questions[nth].question);
 	$('.question').text(questions[nth].question);
+	$('.page').text(questions[nth].page+'.');
 	switch (Math.floor(Math.random() * 4) + 1) {
 		case 1:
 			$('#first-answer').text(questions[nth].correct);
