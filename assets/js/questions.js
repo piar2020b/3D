@@ -70,7 +70,7 @@ var questions = [{
 	'correct': 'EU-tag, nem schengeni ország',
 	'inCorrect1': 'EU-tag, schengeni ország',
 	'inCorrect2': 'Nem EU-tag, nem schengeni ország',
-	'inCorrect3': 'Nem EU-tag , schengeni ország'
+	'inCorrect3': 'Nem EU-tag, schengeni ország'
 }, {
 	'question': 'Romániának milyen státusza van?',
 	'correct': 'EU-tag, nem teljes jogú schengeni ország',

@@ -87,7 +87,9 @@ var giveAnswer = function(event) {
 	}
 	else {
 		$(event).append('<img src="assets/images/x.png" class="response x">');
-		$('.answer:contains('+questions[seriel].correct+')').append('<img src="assets/images/tick.png" class="response tick">');
+		$('.answer').filter(function() {
+			return $(this).text() === questions[seriel].correct;
+		}).append('<img src="assets/images/tick.png" class="response tick">');
 		$('.question').empty();
 		$('.emoji-sad').toggleClass('hidden');
 		$('.next').toggleClass('hidden');
