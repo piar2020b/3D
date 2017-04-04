@@ -1,3 +1,4 @@
+$('html').load('settings.html');
 $(".sidebar-off").click(function() {
 	$(".sidebar").toggleClass("sidebar-hidden");
 	$(".sidebar-on").toggleClass("sidebar-on-hidden");
