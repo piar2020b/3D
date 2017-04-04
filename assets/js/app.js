@@ -113,4 +113,16 @@ $(document).keypress(function(e) {
 	if(e.which === 13 && !$('.next').hasClass('hidden')) {
 		next();
 	}
+	else if(e.which === 49 && $('.next').hasClass('hidden')){
+		giveAnswer($('#first-answer'));
+	}
+	else if(e.which === 50 && $('.next').hasClass('hidden')){
+		giveAnswer($('#second-answer'));
+	}
+	else if(e.which === 51 && $('.next').hasClass('hidden')){
+		giveAnswer($('#third-answer'));
+	}
+	else if(e.which === 52 && $('.next').hasClass('hidden')){
+		giveAnswer($("#fourth-answer"));
+	}
 });
