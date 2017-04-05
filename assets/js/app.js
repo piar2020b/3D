@@ -20,7 +20,6 @@ var checkAnswer = function(answer, seriel) {
 };
 var displayQuestion = function(nth) {
 	seriel = nth;
-	console.log(questions[nth].question);
 	$('.question').text(questions[nth].question);
 	$('.page').text(questions[nth].page+'.');
 	switch (Math.floor(Math.random() * 4) + 1) {
@@ -82,8 +81,9 @@ var giveAnswer = function(event) {
 		$(event).append('<img src="assets/images/tick.png" class="response tick">');
 		$('.jumbotron').text(questions[seriel].reward);
 		$('.question').empty();
-		$('.emoji-happy').toggleClass('hidden');
-		$('.next').toggleClass('hidden');
+		$('.emoji-happy').css({'display':'block'});
+		$('#next').click(next);
+		$('#next').css({'display':'block'});
 		$('.answer').off('click');
 	}
 	else {
@@ -92,12 +92,13 @@ var giveAnswer = function(event) {
 			return $(this).text() === questions[seriel].correct;
 		}).append('<img src="assets/images/tick.png" class="response tick">');
 		$('.question').empty();
-		$('.emoji-sad').toggleClass('hidden');
-		$('.next').toggleClass('hidden');
+		$('.emoji-sad').css({'display':'block'});
+		$('#next').click(next);
+		$('#next').css({'display':'block'});
 		$('.answer').off('click');
 	}
 };
-$('html').on('click','.answer',function(){giveAnswer(this);});
+$('.answer').click(function(){giveAnswer(this);});
 var setStart = function() {
 	$('#settings-container').html('');
 };
@@ -110,25 +111,26 @@ var next = function() {
 	displayQuestion(seriel+1);
 	icons.shift();
 	displayIcons();
-	$('.emoji').not('.hidden').toggleClass('hidden');
-	$('.next').toggleClass('hidden');
-	$('html').on('click','.answer',function(){giveAnswer(this);});
+	$('.emoji').css({'display':'none'});
+	$('#next').css({'display':'none'});
+	$('.answer').click(function(){giveAnswer(this);});
+	$('#next').unbind();
 };
-$('html').on('click','.next',next);
+$('#next').click(next);
 $(document).keypress(function(e) {
-	if(e.which === 13 && !$('.next').hasClass('hidden')) {
+	if(e.which === 13 && $('#next').css('display') === 'block') {
 		next();
 	}
-	else if(e.which === 49 && $('.next').hasClass('hidden')){
+	else if(e.which === 49 && $('#next').css('display') === 'none'){
 		giveAnswer($('#first-answer'));
 	}
-	else if(e.which === 50 && $('.next').hasClass('hidden')){
+	else if(e.which === 50 && $('#next').css('display') === 'none'){
 		giveAnswer($('#second-answer'));
 	}
-	else if(e.which === 51 && $('.next').hasClass('hidden')){
+	else if(e.which === 51 && $('#next').css('display') === 'none'){
 		giveAnswer($('#third-answer'));
 	}
-	else if(e.which === 52 && $('.next').hasClass('hidden')){
+	else if(e.which === 52 && $('#next').css('display') === 'none'){
 		giveAnswer($("#fourth-answer"));
 	}
 });
