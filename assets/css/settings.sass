@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P')
 html *
 	margin: 0
 	box-sizing: border-box
 	pointer-events: auto
+	font-family: 'Press Start 2P'
 body 
 	height: 100vh
 	width: 100vw
@@ -16,17 +18,39 @@ header
 		line-height: 10vh
 main
 	height: 90vh
-	padding: 10px
 	color: black
 	background-color: white
 	div.setting
-		width: 80%
-		padding: 10px
+		width: 80vw
 		height: 30vh
-		margin: 0 auto 2vh auto
-		box-shadow: 0 0 10px 0 black
+		margin: 2vh auto 2vh auto
+		box-shadow: -2px 2px 10px 0 black
+		position: relative
+		text-align: center
 		div.number
 			display: inline-block
+			position: relative
+			top: 10px
+			line-height: calc(30vh - 37px)
+			font-size: 40px
+			text-align: center
+			width: 16vw
+			@media screen and (max-width: 756px)
+				width: 33.33vw
+				line-height: normal
+				padding-top: 20px
+		h2
+			position: relative
+			top: 10px
+			left: 10px
+			text-align: left
+		p.else, input.playtime-inp
+			position: absolute
+			bottom: 10px
+		input.playtime-inp
+			left: 300px
+			width: 100px
+
 	div.ready
 		position: absolute
 		bottom: 18px
