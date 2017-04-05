@@ -1,24 +1,23 @@
-$('html').load('settings.html');
-$(".sidebar-off").click(function() {
+$("html").on('click','.sidebar-off',function() {
 	$(".sidebar").toggleClass("sidebar-hidden");
 	$(".sidebar-on").toggleClass("sidebar-on-hidden");
 });
-$(".sidebar-on").click(function() {
+$("html").on('click','.sidebar-on',function() {
 	$(".sidebar").toggleClass("sidebar-hidden");
 	$(".sidebar-on").toggleClass("sidebar-on-hidden");
 });
-$(".question").click(function() {
+$("html").on('click','.question',function() {
 	if (!$(".sidebar").hasClass("sidebar-hidden")) {
 		$(".sidebar").toggleClass("sidebar-hidden");
 		$(".sidebar-on").toggleClass("sidebar-on-hidden");
 	}
 });
-var checkAnswer = function(answer, seriel) {
-	return questions[seriel].correct === answer;
-};
 var questions;
 var seriel;
 var icons;
+var checkAnswer = function(answer, seriel) {
+	return questions[seriel].correct === answer;
+};
 var displayQuestion = function(nth) {
 	seriel = nth;
 	console.log(questions[nth].question);
@@ -98,19 +97,24 @@ var giveAnswer = function(event) {
 		$('.answer').off('click');
 	}
 };
-$('.answer').click(function(){giveAnswer(this);});
+$('html').on('click','.answer',function(){giveAnswer(this);});
+var setStart = function() {
+	$('#settings-container').html('');
+};
 generateIcons(60,4);
 displayIcons();
 displayQuestion(0);
+$('#settings-container').load('settings.html');
+$('#settings-container').on('click','.ready',setStart);
 var next = function() {
 	displayQuestion(seriel+1);
 	icons.shift();
 	displayIcons();
 	$('.emoji').not('.hidden').toggleClass('hidden');
 	$('.next').toggleClass('hidden');
-	$('.answer').click(function(){giveAnswer(this);});
+	$('html').on('click','.answer',function(){giveAnswer(this);});
 };
-$('.next').click(next);
+$('html').on('click','.next',next);
 $(document).keypress(function(e) {
 	if(e.which === 13 && !$('.next').hasClass('hidden')) {
 		next();

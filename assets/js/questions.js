@@ -17,11 +17,11 @@ var questions = [{
 	'correct': 'Luxemburg',
 	'inCorrect1': 'Liszabon',
 	'inCorrect2': 'Amszterdamm',
-	'inCorrect3': 'Strassburgh',
+	'inCorrect3': 'Strasbourg',
 	'page': '142'
 }, {
 	'question': 'Hol található az Európai Parlament?',
-	'correct': 'Strassburgh',
+	'correct': 'Strasbourg',
 	'inCorrect1': 'Luxemburg',
 	'inCorrect2': 'Brüsszel',
 	'inCorrect3': 'párizs',
