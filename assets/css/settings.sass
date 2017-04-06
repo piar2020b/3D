@@ -51,6 +51,11 @@ main
 			position: absolute
 			right: calc(50% - 35px)
 			top: -10px
+	div.setting#playtime
+		div.number.selected::before
+			left: calc(50% - 50px)
+		div.number.selected::after
+			right: calc(50% - 50px)
 		h2
 			position: relative
 			top: 10px
@@ -59,6 +64,7 @@ main
 		p.else, input.playtime-inp
 			position: absolute
 			bottom: 10px
+			left: 5px
 			font-size: 22px
 		input.playtime-inp
 			left: 165px

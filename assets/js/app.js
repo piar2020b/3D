@@ -67,6 +67,8 @@ var displayIcons = function() {
 		}
 	}
 };
+var settingPlayers = 5;
+var settingPlaytime = 60;
 var generateIcons = function(playtime, players) {
 	var count = playtime / 2;
 	icons = [];
@@ -101,10 +103,10 @@ var giveAnswer = function(event) {
 $('.answer').click(function(){giveAnswer(this);});
 var setStart = function() {
 	$('#settings-container').html('');
+	generateIcons(settingPlaytime,settingPlayers);
+	displayIcons();
+	displayQuestion(0);
 };
-generateIcons(60,4);
-displayIcons();
-displayQuestion(0);
 $('#settings-container').load('settings.html');
 $('#settings-container').on('click','.ready',setStart);
 var next = function() {
@@ -117,6 +119,16 @@ var next = function() {
 	$('#next').unbind();
 };
 $('#next').click(next);
+$('#settings-container').on('click','#players .number',function() {
+	$('#players .selected').toggleClass('selected');
+	$(this).toggleClass('selected');
+	settingPlayers = $(this).text();
+});
+$('#settings-container').on('click','#playtime .number',function() {
+	$('#playtime .selected').toggleClass('selected');
+	$(this).toggleClass('selected');
+	settingPlaytime = $(this).text();
+});
 $(document).keypress(function(e) {
 	if(e.which === 13 && $('#next').css('display') === 'block') {
 		next();
