@@ -38,8 +38,19 @@ main
 			@media screen and (max-width: 756px)
 				width: 33.33vw
 				line-height: normal
-				padding-top: 8px
-				max-height: 50px
+				margin-top: 6px
+		div.number.selected
+			font-weight: 700
+		div.number.selected::before
+			content: '„'
+			position: absolute
+			left: calc(50% - 35px)
+			bottom: -10px
+		div.number.selected::after
+			content: '”'
+			position: absolute
+			right: calc(50% - 35px)
+			top: -10px
 		h2
 			position: relative
 			top: 10px

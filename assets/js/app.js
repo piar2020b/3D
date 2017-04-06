@@ -121,16 +121,16 @@ $(document).keypress(function(e) {
 	if(e.which === 13 && $('#next').css('display') === 'block') {
 		next();
 	}
-	else if(e.which === 49 && $('#next').css('display') === 'none'){
+	else if(e.which === 49 && $('#next').css('display') === 'none' && $('#playtime').length === -1){
 		giveAnswer($('#first-answer'));
 	}
-	else if(e.which === 50 && $('#next').css('display') === 'none'){
+	else if(e.which === 50 && $('#next').css('display') === 'none' && $('#playtime').length === -1){
 		giveAnswer($('#second-answer'));
 	}
-	else if(e.which === 51 && $('#next').css('display') === 'none'){
+	else if(e.which === 51 && $('#next').css('display') === 'none' && $('#playtime').length === -1){
 		giveAnswer($('#third-answer'));
 	}
-	else if(e.which === 52 && $('#next').css('display') === 'none'){
+	else if(e.which === 52 && $('#next').css('display') === 'none' && $('#playtime').length === -1){
 		giveAnswer($("#fourth-answer"));
 	}
 });

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 html * {
   margin: 0;
@@ -42,8 +43,19 @@ main {
         main div.setting div.number {
           width: 33.33vw;
           line-height: normal;
-          padding-top: 8px;
-          max-height: 50px; } }
+          margin-top: 6px; } }
+    main div.setting div.number.selected {
+      font-weight: 700; }
+    main div.setting div.number.selected::before {
+      content: "„";
+      position: absolute;
+      left: calc(50% - 35px);
+      bottom: -10px; }
+    main div.setting div.number.selected::after {
+      content: "”";
+      position: absolute;
+      right: calc(50% - 35px);
+      top: -10px; }
     main div.setting h2 {
       position: relative;
       top: 10px;
