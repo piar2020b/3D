@@ -56,15 +56,15 @@ main {
       position: absolute;
       right: calc(50% - 35px);
       top: -10px; }
+    main div.setting h2 {
+      position: relative;
+      top: 10px;
+      left: 10px;
+      text-align: left; }
   main div.setting#playtime div.number.selected::before {
     left: calc(50% - 50px); }
   main div.setting#playtime div.number.selected::after {
     right: calc(50% - 50px); }
-  main div.setting#playtime h2 {
-    position: relative;
-    top: 10px;
-    left: 10px;
-    text-align: left; }
   main div.setting#playtime p.else, main div.setting#playtime input.playtime-inp {
     position: absolute;
     bottom: 10px;

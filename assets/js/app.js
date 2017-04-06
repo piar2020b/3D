@@ -102,6 +102,7 @@ var giveAnswer = function(event) {
 };
 $('.answer').click(function(){giveAnswer(this);});
 var setStart = function() {
+	if($('#playtime .selected').length === -1) {settingPlaytime = $('.playtime-inp').val();}
 	$('#settings-container').html('');
 	generateIcons(settingPlaytime,settingPlayers);
 	displayIcons();
@@ -128,6 +129,9 @@ $('#settings-container').on('click','#playtime .number',function() {
 	$('#playtime .selected').toggleClass('selected');
 	$(this).toggleClass('selected');
 	settingPlaytime = $(this).text();
+});
+$('#settings-container').on('click','.playtime-inp',function() {
+	$('#playtime .selected').toggleClass('selected');
 });
 $(document).keypress(function(e) {
 	if(e.which === 13 && $('#next').css('display') === 'block') {

@@ -203,38 +203,38 @@ var questions = [{
 	'page': '151'
 }, {
 	'question': 'A népesség hány %-a francia ajkú, Svájcban?',
-	'correct': '0,226',
-	'inCorrect1': '0,258',
-	'inCorrect2': '0,202',
-	'inCorrect3': '0,205',
+	'correct': '2,26',
+	'inCorrect1': '2,58',
+	'inCorrect2': '2,02',
+	'inCorrect3': '2,05',
 	'page': '153'
 }, {
 	'question': 'A népesség hány %-a német ajkú Svájcban?',
-	'correct': '0,645',
-	'inCorrect1': '0,607',
-	'inCorrect2': '0,404',
-	'inCorrect3': '0,702',
+	'correct': '6,45',
+	'inCorrect1': '6,07',
+	'inCorrect2': '4,04',
+	'inCorrect3': '7,02',
 	'page': '153'
 }, {
 	'question': 'A népesség hány %-a olasz ajkú Svájcban?',
-	'correct': '0,083',
-	'inCorrect1': '0,1',
-	'inCorrect2': '0,2',
-	'inCorrect3': '0,15',
+	'correct': '0,83',
+	'inCorrect1': '1',
+	'inCorrect2': '2',
+	'inCorrect3': '1,5',
 	'page': '153'
 }, {
 	'question': 'A népesség hány %-a rétoromán ajkú Svájcban?',
-	'correct': '0,005',
-	'inCorrect1': '0,002',
-	'inCorrect2': '0,01',
-	'inCorrect3': '0,015',
+	'correct': '0,05',
+	'inCorrect1': '0,02',
+	'inCorrect2': '0,1',
+	'inCorrect3': '0,15',
 	'page': '153'
 }, {
 	'question': 'A Svájci népesség hány %-a él Mittellandon?',
-	'correct': '0,75',
-	'inCorrect1': '0,5',
-	'inCorrect2': '0,85',
-	'inCorrect3': '0,65',
+	'correct': '7,5',
+	'inCorrect1': '5',
+	'inCorrect2': '8,5',
+	'inCorrect3': '6,5',
 	'page': '153'
 }, {
 	'question': 'Melyik osztrák tartományban él a legtöbb magyar?',
@@ -455,10 +455,10 @@ var questions = [{
 	'page': '158'
 }, {
 	'question': 'Az összlakosság hány százaléka magyar Szlovákiában?',
-	'correct': '0,085',
-	'inCorrect1': '0,095',
-	'inCorrect2': '7.5%',
-	'inCorrect3': '0,07',
+	'correct': '8,5',
+	'inCorrect1': '9,5',
+	'inCorrect2': '7.5',
+	'inCorrect3': '7',
 	'page': '159'
 }, {
 	'question': 'Az összlakosság hány százaléka magyar Romániában?',
@@ -714,10 +714,10 @@ var questions = [{
 	"page": '132'
 }, {
 	'question': 'A  közvetlen külföldi tőkebefektetéseknek hány %-a kötődik az eu-hoz?',
-	'correct': '0,2',
-	'inCorrect1': '0,4',
-	'inCorrect2': '0,05',
-	'inCorrect3': '0,5',
+	'correct': '2',
+	'inCorrect1': '4',
+	'inCorrect2': '0,5',
+	'inCorrect3': '5',
 	"page": '132'
 }, {
 	'question': 'Melyik évben következett be a világgazdasági válság?',
