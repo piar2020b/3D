@@ -72,7 +72,7 @@ var settingPlaytime = 60;
 var generateIcons = function(playtime, players) {
 	var count = playtime / 2;
 	icons = [];
-    var colors = ["cyan", "violet", "orange", "black", "gold", "red", "blue", "green"];
+    var colors = ["black", "blue", "orange", "red", "cyan", "gold", "violet", "green"];
 	for (var i = 1; i <= count; i++) {
     	icons.push(colors[i % players]);
 	}
