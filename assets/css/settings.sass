@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P')
+@import url('https://fonts.googleapis.com/css?family=Raleway')
 html *
 	margin: 0
 	box-sizing: border-box
 	pointer-events: auto
-	font-family: 'Press Start 2P'
+	font-family: 'Raleway'
 body 
 	height: 100vh
 	width: 100vw
@@ -14,7 +14,7 @@ header
 	background-color: white
 	h1.title
 		text-align: center
-		font-size: 34px
+		font-size: 36px
 		line-height: 10vh
 main
 	height: 90vh
@@ -32,13 +32,14 @@ main
 			position: relative
 			top: 10px
 			line-height: calc(30vh - 37px)
-			font-size: 40px
+			font-size: 52px
 			text-align: center
 			width: 16vw
 			@media screen and (max-width: 756px)
 				width: 33.33vw
 				line-height: normal
-				padding-top: 20px
+				padding-top: 8px
+				max-height: 50px
 		h2
 			position: relative
 			top: 10px
@@ -47,10 +48,13 @@ main
 		p.else, input.playtime-inp
 			position: absolute
 			bottom: 10px
+			font-size: 22px
 		input.playtime-inp
-			left: 300px
-			width: 100px
-
+			left: 165px
+			width: 60px
+			height: 20px
+			font-size: 16px
+			padding-bottom: 5px
 	div.ready
 		position: absolute
 		bottom: 18px
