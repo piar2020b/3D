@@ -462,10 +462,10 @@ var questions = [{
 	'page': '159'
 }, {
 	'question': 'Az összlakosság hány százaléka magyar Romániában?',
-	'correct': '6.5%',
-	'inCorrect1': '0,06',
-	'inCorrect2': '7.5%',
-	'inCorrect3': '0,08',
+	'correct': '6.5',
+	'inCorrect1': '0,6',
+	'inCorrect2': '7.5',
+	'inCorrect3': '0,8',
 	'page': '159'
 }, {
 	'question': 'Mi Székelyföld kulturális központja?',
