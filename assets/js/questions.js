@@ -55,7 +55,7 @@ var questions = [{
 	'inCorrect3': 'Lichtenberg',
 	'page': '143'
 }, {
-	'question': 'Mi volt akohászat közőontja Közép-Agliában?',
+	'question': 'Mi volt a kohászat középontja Közép-Angliában?',
 	'correct': 'Birmingham',
 	'inCorrect1': 'Liverpool',
 	'inCorrect2': 'Manchester',
@@ -119,10 +119,10 @@ var questions = [{
 	'page': '147'
 }, {
 	'question': 'Milyen magas a munkanélküliség Spanyolországban?',
-	'correct': '0,24',
-	'inCorrect1': '0,19',
-	'inCorrect2': '0,2',
-	'inCorrect3': '0,08',
+	'correct': '24',
+	'inCorrect1': '19',
+	'inCorrect2': '20',
+	'inCorrect3': '8',
 	'page': '148'
 }, {
 	'question': 'Melyik  Európai országból érkezik manapság a legtöbb bevándorló Spanyolországba',
@@ -203,38 +203,38 @@ var questions = [{
 	'page': '151'
 }, {
 	'question': 'A népesség hány %-a francia ajkú, Svájcban?',
-	'correct': '2,26',
-	'inCorrect1': '2,58',
-	'inCorrect2': '2,02',
-	'inCorrect3': '2,05',
+	'correct': '22,6',
+	'inCorrect1': '25,8',
+	'inCorrect2': '20,2',
+	'inCorrect3': '20,5',
 	'page': '153'
 }, {
 	'question': 'A népesség hány %-a német ajkú Svájcban?',
-	'correct': '6,45',
-	'inCorrect1': '6,07',
-	'inCorrect2': '4,04',
-	'inCorrect3': '7,02',
+	'correct': '64,5',
+	'inCorrect1': '60,7',
+	'inCorrect2': '40,4',
+	'inCorrect3': '70,2',
 	'page': '153'
 }, {
 	'question': 'A népesség hány %-a olasz ajkú Svájcban?',
-	'correct': '0,83',
-	'inCorrect1': '1',
-	'inCorrect2': '2',
-	'inCorrect3': '1,5',
+	'correct': '8,3',
+	'inCorrect1': '10',
+	'inCorrect2': '20',
+	'inCorrect3': '15',
 	'page': '153'
 }, {
 	'question': 'A népesség hány %-a rétoromán ajkú Svájcban?',
-	'correct': '0,05',
-	'inCorrect1': '0,02',
-	'inCorrect2': '0,1',
-	'inCorrect3': '0,15',
+	'correct': '0,5',
+	'inCorrect1': '0,2',
+	'inCorrect2': '1',
+	'inCorrect3': '1,5',
 	'page': '153'
 }, {
 	'question': 'A Svájci népesség hány %-a él Mittellandon?',
-	'correct': '7,5',
-	'inCorrect1': '5',
-	'inCorrect2': '8,5',
-	'inCorrect3': '6,5',
+	'correct': '75',
+	'inCorrect1': '50',
+	'inCorrect2': '85',
+	'inCorrect3': '65',
 	'page': '153'
 }, {
 	'question': 'Melyik osztrák tartományban él a legtöbb magyar?',
@@ -441,17 +441,17 @@ var questions = [{
 	'page': '158'
 }, {
 	'question': 'A 2004-es csatlakozás következtében mennyivel csökkent az egy főre jutó jövedelem az EU-ban?',
-	'correct': '0,2',
-	'inCorrect1': '0,25',
-	'inCorrect2': '0,15',
-	'inCorrect3': '0,3',
+	'correct': '20',
+	'inCorrect1': '25',
+	'inCorrect2': '15',
+	'inCorrect3': '30',
 	'page': '158'
 }, {
-	'question': 'A 2004-es csatlakozás következtében mennyivel csökkent a GDP? ',
-	'correct': '0,05',
-	'inCorrect1': '0,08',
-	'inCorrect2': '0,1',
-	'inCorrect3': '0,03',
+	'question': 'A 2004-es csatlakozás következtében mennyivel nőtt a GDP? ',
+	'correct': '5',
+	'inCorrect1': '8',
+	'inCorrect2': '10',
+	'inCorrect3': '3',
 	'page': '158'
 }, {
 	'question': 'Az összlakosság hány százaléka magyar Szlovákiában?',
@@ -714,10 +714,10 @@ var questions = [{
 	"page": '132'
 }, {
 	'question': 'A  közvetlen külföldi tőkebefektetéseknek hány %-a kötődik az eu-hoz?',
-	'correct': '2',
-	'inCorrect1': '4',
-	'inCorrect2': '0,5',
-	'inCorrect3': '5',
+	'correct': '20',
+	'inCorrect1': '40',
+	'inCorrect2': '5',
+	'inCorrect3': '50',
 	"page": '132'
 }, {
 	'question': 'Melyik évben következett be a világgazdasági válság?',
