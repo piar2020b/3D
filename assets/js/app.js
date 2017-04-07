@@ -84,7 +84,7 @@ var giveAnswer = function(event) {
 		$('.jumbotron').text(questions[seriel].reward);
 		$('.question').empty();
 		$('.emoji-happy').css({'display':'block'});
-		$('#next').click(next);
+		$('#next').one('click',next);
 		$('#next').css({'display':'block'});
 		$('.answer').off('click');
 	}
@@ -95,7 +95,7 @@ var giveAnswer = function(event) {
 		}).append('<img src="assets/images/tick.png" class="response tick">');
 		$('.question').empty();
 		$('.emoji-sad').css({'display':'block'});
-		$('#next').click(next);
+		$('#next').one('click',next);
 		$('#next').css({'display':'block'});
 		$('.answer').off('click');
 	}
@@ -117,9 +117,8 @@ var next = function() {
 	$('.emoji').css({'display':'none'});
 	$('#next').css({'display':'none'});
 	$('.answer').click(function(){giveAnswer(this);});
-	$('#next').unbind();
 };
-$('#next').click(next);
+$('#next').one('click',next);
 $('#settings-container').on('click','#players .number',function() {
 	$('#players .selected').toggleClass('selected');
 	$(this).toggleClass('selected');
