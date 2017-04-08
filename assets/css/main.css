@@ -5,7 +5,7 @@ section.welcome {
   background-image: url("../images/welcome.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right bottom;
+  background-position: 72% 100%;
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 50vw inset; }
   section.welcome div.text {
     z-index: 100;
@@ -14,6 +14,9 @@ section.welcome {
     position: absolute;
     top: 10px;
     right: 10px; }
+  section.welcome div.text-title h1 {
+    text-align: center;
+    font-size: 60px; }
 
 section.blue {
   background-color: blue; }
