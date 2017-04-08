@@ -29,7 +29,21 @@
 				<h1>Két csoportra osztódtunk</h1>
 			</section>
 			<section class="section groups">
-				<div class="half-page" id="gamification"></div><div class="half-page" id="printers"></div>
+				<div class="section half-page" id="gamification">
+					<h1>Gamification</h2>
+					<ul class="notes">
+						<li>játék megtervezése</li>
+						<li>nyomtatandó termékek megnevezése</li>
+					</ul>
+				</div
+				><div class="section half-page" id="printers">
+					<h1>Nyomtatósok</h2>
+					<ul class="notes">
+						<li>nyomtató képességeinek felmérése</li>
+						<li>programok használatának megtanulása</li>
+						<li>nyomtatás</li>
+					</ul>
+				</div>
 			</section>
 			<section class="section red">
 
@@ -39,7 +53,79 @@
 		<script type="text/javascript" src="assets/js/jquery.fullPage.min.js"></script>
 		<script>
 			$(document).ready(function() {
-				$('#fullpage').fullpage();
+				$('#fullpage').fullpage({
+					//Navigation
+					menu: '#menu',
+					lockAnchors: false,
+					anchors:['hello', '1.lépéps', 'két-csoport'],
+					navigation: false,
+					navigationPosition: 'right',
+					navigationTooltips: ['firstSlide', 'secondSlide'],
+					showActiveTooltip: false,
+					slidesNavigation: false,
+					slidesNavPosition: 'bottom',
+
+					//Scrolling
+					css3: true,
+					scrollingSpeed: 800,
+					autoScrolling: true,
+					fitToSection: true,
+					fitToSectionDelay: 1000,
+					scrollBar: false,
+					easing: 'easeInOutCubic',
+					easingcss3: 'ease',
+					loopBottom: false,
+					loopTop: false,
+					loopHorizontal: true,
+					continuousVertical: false,
+					continuousHorizontal: false,
+					scrollHorizontally: false,
+					interlockedSlides: false,
+					dragAndMove: false,
+					offsetSections: false,
+					resetSliders: false,
+					fadingEffect: false,
+					normalScrollElements: '#element1, .element2',
+					scrollOverflow: false,
+					scrollOverflowReset: false,
+					scrollOverflowOptions: null,
+					touchSensitivity: 15,
+					normalScrollElementTouchThreshold: 5,
+					bigSectionsDestination: null,
+
+					//Accessibility
+					keyboardScrolling: true,
+					animateAnchor: true,
+					recordHistory: true,
+
+					//Design
+					controlArrows: true,
+					verticalCentered: true,
+					sectionsColor : ['#ccc', '#fff'],
+					paddingTop: '0',
+					paddingBottom: '0',
+					fixedElements: '#header, .footer',
+					responsiveWidth: 768,
+					responsiveHeight: 0,
+					responsiveSlides: true,
+					parallax: false,
+					parallaxOptions: {type: 'reveal', percentage: 100, property: 'translate'},
+
+					//Custom selectors
+					sectionSelector: '.section',
+					slideSelector: '.slide',
+
+					lazyLoading: true,
+
+					//events
+					onLeave: function(index, nextIndex, direction){},
+					afterLoad: function(anchorLink, index){},
+					afterRender: function(){},
+					afterResize: function(){},
+					afterResponsive: function(isResponsive){},
+					afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+					onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
+				});
 			});
 		</script>
 	</body>
