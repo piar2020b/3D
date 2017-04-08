@@ -1,6 +1,12 @@
 html * {
   margin: 0; }
 
+body {
+  font-size: 100%; }
+
+.fp-tableCell {
+  width: 100vw; }
+
 section.welcome {
   background-image: url("../images/welcome.jpeg");
   background-repeat: no-repeat;
@@ -9,7 +15,7 @@ section.welcome {
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 50vw inset; }
   section.welcome div.text {
     z-index: 100;
-    color: white; }
+    color: #ECECEA; }
   section.welcome div.text-label {
     position: absolute;
     top: 10px;
@@ -34,8 +40,23 @@ section.groups .fp-tableCell {
   vertical-align: initial !important; }
 section.groups div.half-page {
   display: inline-block;
+  vertical-align: top;
   width: 50%;
-  height: 100%; }
+  height: 100vh; }
+  section.groups div.half-page h1 {
+    margin-top: 100px;
+    text-align: center;
+    color: #ECECEA; }
+  section.groups div.half-page ul.notes {
+    list-style-type: square;
+    color: #ECECEA;
+    margin: 100px 0 0 30px;
+    font-size: 35px; }
+    section.groups div.half-page ul.notes li {
+      padding-top: 30px; }
+  @media screen and (max-width: 768px) {
+    section.groups div.half-page {
+      width: 100%; } }
 section.groups div#gamification {
   background-color: #558C89; }
 section.groups div#printers {
