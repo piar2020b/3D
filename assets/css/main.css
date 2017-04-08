@@ -1,15 +1,21 @@
 html * {
   margin: 0; }
 
-section {
-  height: 100vh;
+section.welcome {
   background-image: url("../images/welcome.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right bottom;
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 50vw inset; }
-  section div.text {
-    float: right;
+  section.welcome div.text {
+    position: absolute;
+    top: 10px;
+    right: 10px;
     color: white;
-    margin: 10px 10px 0 0;
     z-index: 100; }
+
+section.blue {
+  background-color: blue; }
+
+section.red {
+  background-color: red; }

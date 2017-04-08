@@ -10,17 +10,31 @@
 		<meta name="robots" content="index, follow">
 		<meta name="author" content="Ivancsics Markus">
 		<!-- Style Files -->
+		<link type="text/css" rel="stylesheet" href="assets/css/jquery.fullPage.css"/>
 		<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"/>
 		<link type="text/css" rel="stylesheet" href="assets/css/main.css"/>
 	</head>
 	<body>
-		<main>
-			<section id="welcome">
+		<main id="fullpage">
+			<section class="section welcome">
 				<div class="text">
 					<h1>3D Társasjáték Project</h1>
 					<h2>Budapesti Piarista Gimnázium</h2>
 				</div>
 			</section>
+			<section class="section blue">
+
+			</section>
+			<section class="section red">
+
+			</section>
 		</main>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="assets/js/jquery.fullPage.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('#fullpage').fullpage();
+			});
+		</script>
 	</body>
 </html>
