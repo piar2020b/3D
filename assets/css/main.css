@@ -62,5 +62,23 @@ section.groups div#gamification {
 section.groups div#printers {
   background-color: #D9853B; }
 
-section.red {
-  background-color: red; }
+section.three-dimension {
+  background-color: #74AFAD; }
+  section.three-dimension div.image-container {
+    width: 400px;
+    display: block;
+    position: absolute; }
+    section.three-dimension div.image-container img {
+      width: 100%;
+      border: 2px solid #ECECEA; }
+  section.three-dimension div.image-container:nth-of-type(1) {
+    right: 220px;
+    top: 70px; }
+  section.three-dimension div.image-container:nth-of-type(2) {
+    width: 760px;
+    left: 20px;
+    top: 110px; }
+  section.three-dimension div.image-container:nth-of-type(3) {
+    width: 480px;
+    right: 60px;
+    bottom: 30px; }
