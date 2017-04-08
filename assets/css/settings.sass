@@ -36,7 +36,8 @@ main
 			text-align: center
 			width: 16vw
 			@media screen and (max-width: 756px)
-				width: 33.33vw
+				width: 20%
+				font-size: 26px
 				line-height: normal
 				margin-top: 6px
 		div.number.selected
@@ -46,11 +47,15 @@ main
 			position: absolute
 			left: calc(50% - 35px)
 			bottom: -10px
+			@media screen and (max-width: 756px)
+				left: 5px
 		div.number.selected::after
 			content: '”'
 			position: absolute
 			right: calc(50% - 35px)
 			top: -10px
+			@media screen and (max-width: 756px)
+				right: 5px
 		h2
 			position: relative
 			top: 10px
@@ -59,8 +64,12 @@ main
 	div.setting#playtime
 		div.number.selected::before
 			left: calc(50% - 50px)
+			@media screen and (max-width: 756px)
+				left: 0
 		div.number.selected::after
 			right: calc(50% - 50px)
+			@media screen and (max-width: 756px)
+				right: 0
 		p.else, input.playtime-inp
 			position: absolute
 			bottom: 10px

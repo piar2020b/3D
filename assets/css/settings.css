@@ -41,7 +41,8 @@ main {
       width: 16vw; }
       @media screen and (max-width: 756px) {
         main div.setting div.number {
-          width: 33.33vw;
+          width: 20%;
+          font-size: 26px;
           line-height: normal;
           margin-top: 6px; } }
     main div.setting div.number.selected {
@@ -51,11 +52,17 @@ main {
       position: absolute;
       left: calc(50% - 35px);
       bottom: -10px; }
+      @media screen and (max-width: 756px) {
+        main div.setting div.number.selected::before {
+          left: 5px; } }
     main div.setting div.number.selected::after {
       content: "”";
       position: absolute;
       right: calc(50% - 35px);
       top: -10px; }
+      @media screen and (max-width: 756px) {
+        main div.setting div.number.selected::after {
+          right: 5px; } }
     main div.setting h2 {
       position: relative;
       top: 10px;
@@ -63,8 +70,14 @@ main {
       text-align: left; }
   main div.setting#playtime div.number.selected::before {
     left: calc(50% - 50px); }
+    @media screen and (max-width: 756px) {
+      main div.setting#playtime div.number.selected::before {
+        left: 0; } }
   main div.setting#playtime div.number.selected::after {
     right: calc(50% - 50px); }
+    @media screen and (max-width: 756px) {
+      main div.setting#playtime div.number.selected::after {
+        right: 0; } }
   main div.setting#playtime p.else, main div.setting#playtime input.playtime-inp {
     position: absolute;
     bottom: 10px;
