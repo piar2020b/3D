@@ -18,8 +18,28 @@ section.welcome {
     text-align: center;
     font-size: 60px; }
 
-section.blue {
-  background-color: blue; }
+section.to-groups {
+  background-color: #ECECEA;
+  line-height: 400px;
+  height: 400px;
+  text-align: center; }
+  section.to-groups h1 {
+    color: #D9853B;
+    font-size: 60px;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle; }
+
+section.groups .fp-tableCell {
+  vertical-align: initial !important; }
+section.groups div.half-page {
+  display: inline-block;
+  width: 50%;
+  height: 100%; }
+section.groups div#gamification {
+  background-color: #558C89; }
+section.groups div#printers {
+  background-color: #D9853B; }
 
 section.red {
   background-color: red; }
