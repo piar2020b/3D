@@ -4,7 +4,9 @@ html * {
   box-sizing: border-box; }
 
 body {
-  font-size: 100%;
+  font-size: 100%; }
+
+section {
   overflow: hidden; }
 
 .fp-tableCell {
@@ -41,31 +43,39 @@ section.to-groups, section.learning {
     line-height: normal;
     vertical-align: middle; }
 
-section.groups .fp-tableCell {
-  vertical-align: initial !important; }
-section.groups div.half-page {
-  display: inline-block;
-  vertical-align: top;
-  width: 50%;
-  height: 100vh; }
-  section.groups div.half-page h1 {
-    margin-top: 100px;
-    text-align: center;
-    color: #ECECEA; }
-  section.groups div.half-page ul.notes {
-    list-style-type: square;
-    color: #ECECEA;
-    margin: 100px 0 0 30px;
-    font-size: 35px; }
-    section.groups div.half-page ul.notes li {
-      padding-top: 30px; }
-  @media screen and (max-width: 768px) {
-    section.groups div.half-page {
-      width: 100%; } }
-section.groups div#gamification {
-  background-color: #558C89; }
-section.groups div#printers {
-  background-color: #D9853B; }
+section.groups {
+  min-height: 100%;
+  max-height: 200%; }
+  section.groups .fp-tableCell {
+    vertical-align: initial !important; }
+  section.groups div.half-page {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 100%;
+    height: 100vh;
+    position: relative; }
+    section.groups div.half-page h1 {
+      margin-top: 100px;
+      text-align: center;
+      color: #ECECEA; }
+    section.groups div.half-page ul.notes {
+      position: absolute;
+      top: 50%;
+      margin-top: -25vh;
+      height: 50vh;
+      list-style-type: square;
+      color: #ECECEA;
+      font-size: 35px; }
+      section.groups div.half-page ul.notes li {
+        padding-top: 30px; }
+    @media screen and (max-width: 768px) {
+      section.groups div.half-page {
+        width: 100%; } }
+  section.groups div#gamification {
+    background-color: #558C89; }
+  section.groups div#printers {
+    background-color: #D9853B; }
 
 section.three-dimension {
   background-color: #74AFAD; }
@@ -89,9 +99,6 @@ section.three-dimension {
     bottom: 30px; }
 
 section.scratch {
-  background-color: #ECECEA;
-  color: #D9853B;
-  text-align: justify;
-  font-size: 6px; }
-  section.scratch p {
-    padding: 3px; }
+  background-image: url("../images/scratch.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
