@@ -147,10 +147,27 @@ section.quiz
 			transform: translateX(-50%)
 			width: 70%
 	div.publish
-		background-image: url('../images/iphone.png')
-		background-repeat: no-repeat
-		background-size: cover
-		background-position: bottom
+		background-color: rgb(252,240,110)
+		position: relative
+		h1
+			color: white
+			font-size: 50px
+			position: relative
+			top: -25%
+			left: 15%
+			text-shadow: -3px 3px #000000
+			@media screen and (max-width: 768px)
+				font-size: 40px
+				top: -15%
+		img.iphone
+			position: absolute
+			bottom: 10px
+			width: 70%
+			right: 10px
+			@media screen and (max-width: 768px)
+				right: 0
+				bottom: 100px
+				width: 100%
 #fp-nav ul li a span, .fp-slidesNav ul li a span
 	background-color: #ECECEA
 .fp-controlArrow.fp-prev
