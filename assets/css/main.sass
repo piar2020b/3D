@@ -40,6 +40,8 @@ section.to-groups, section.learning, section.plan2
 		display: inline-block
 		line-height: normal
 		vertical-align: middle
+		@media screen and (max-width: 768px)
+			font-size: 45px
 section.groups
 	.fp-tableCell
 		vertical-align: initial!important
@@ -81,7 +83,7 @@ section.scratch
 		color: #D9853B
 		font-size: 70px
 		@media screen and (max-width: 768px)
-			font-size: 50px
+			font-size: 40px
 section.plan
 	background-color: #ECECEA
 	div.scratch
@@ -94,13 +96,6 @@ section.plan
 		background-repeat: no-repeat
 		width: 30%
 		height: 30%
-		p
-			color: #D9853B
-			position: absolute
-			top: 50%
-			left: 50%
-			transform: translate(-50%, -50%)
-			font-size: 30px
 	svg.arrow
 		fill: #D9853B
 		position: relative
@@ -121,10 +116,44 @@ section.plan
 			top: 50px
 		img.planning
 			top: 70%
+section.quiz
+	div.idea
+		background-color: #74AFAD
+		ul.notes
+			position: absolute
+			top: 50%
+			left: 50px
+			transform: translateY(-50%)
+			text-align: center
+			width: 85vw
+			list-style-type: none
+			list-style-position: inside
+			color: #ECECEA
+			font-size: 35px
+			@media screen and (max-width: 768px)
+				left: 5px
+				font-size: 15px
+			li
+				text-align: left
+				padding-top: 15px
+	div.code
+		background-color: rgb(10,10,10)
+	div.publish
+		background-image: url('../images/iphone.png')
+		background-repeat: no-repeat
+		background-size: cover
+		background-position: bottom
 #fp-nav ul li a span, .fp-slidesNav ul li a span
 	background-color: #ECECEA
 .fp-controlArrow.fp-prev
 	left: 45px
 	border-width: 35px 30.909px 35px 0
+	@media screen and (max-width: 768px)
+		left: 8px
+		border-width: 20px 17.6622px 20px 0
 .fp-controlArrow.fp-next
 	right: 45px
+	border-width: 35px 0 35px 30.909px
+	@media screen and (max-width: 768px)
+		right: 8px
+		border-width: 20px 0 20px 17.6622px
