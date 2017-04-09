@@ -28,15 +28,15 @@
 			<section class="section to-groups fp-auto-height">
 				<h1>Két csoportra osztódtunk</h1>
 			</section>
-			<section class="section groups fp-auto-height">
-				<div class="half-page" id="gamification">
+			<section class="section groups">
+				<div class="slide" id="gamification">
 					<h1>Gamification</h2>
 					<ul class="notes">
 						<li>játék megtervezése</li>
 						<li>nyomtatandó termékek megnevezése</li>
 					</ul>
 				</div
-				><div class="half-page" id="printers">
+				><div class="slide" id="printers">
 					<h1>Nyomtatósok</h2>
 					<ul class="notes">
 						<li>nyomtató képességeinek felmérése</li>
@@ -49,9 +49,9 @@
 				<h1>Ismerkedés...</h1>
 			</section>
 			<section class="section three-dimension">
-				<div class="image-container"><img src="assets/images/megbeszélés1.jpeg" alt="Megbeszélés"></div>
-				<div class="image-container"><img src="assets/images/nyomtató1.jpeg" alt="Nyomtató"></div>
-				<div class="image-container"><img src="assets/images/nyomtató2.jpeg" alt="Nyomtató"></div>
+				<div class="slide"><div class="image-container"><img src="assets/images/megbeszélés1.jpeg" alt="Megbeszélés"></div></div>
+				<div class="slide"><div class="image-container"><img src="assets/images/nyomtató1.jpeg" alt="Nyomtató"></div></div>
+				<div class="slide"><div class="image-container"><img src="assets/images/nyomtató2.jpeg" alt="Nyomtató"></div></div>
 			</section>
 			<section class="section scratch">
 			</section>
@@ -69,12 +69,12 @@
 					navigationPosition: 'right',
 					navigationTooltips: ['firstSlide', 'secondSlide'],
 					showActiveTooltip: false,
-					slidesNavigation: false,
+					slidesNavigation: true,
 					slidesNavPosition: 'bottom',
 
 					//Scrolling
 					css3: true,
-					scrollingSpeed: 800,
+					scrollingSpeed: 600,
 					autoScrolling: true,
 					fitToSection: true,
 					fitToSectionDelay: 1000,
@@ -106,7 +106,7 @@
 					recordHistory: true,
 
 					//Design
-					controlArrows: true,
+					controlArrows: false,
 					verticalCentered: true,
 					sectionsColor : ['#ccc', '#fff'],
 					paddingTop: '0',

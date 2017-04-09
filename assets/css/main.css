@@ -1,7 +1,7 @@
 html * {
   margin: 0;
   vertical-align: middle;
-  box-sizing: border-box; }
+  box-sizing: border-box !important; }
 
 body {
   font-size: 100%; }
@@ -43,62 +43,45 @@ section.to-groups, section.learning {
     line-height: normal;
     vertical-align: middle; }
 
-section.groups {
-  min-height: 100%;
-  max-height: 200%; }
-  section.groups .fp-tableCell {
-    vertical-align: initial !important; }
-  section.groups div.half-page {
-    display: inline-block;
-    vertical-align: top;
-    width: 50%;
-    height: 100%;
-    height: 100vh;
-    position: relative; }
-    section.groups div.half-page h1 {
-      margin-top: 100px;
-      text-align: center;
-      color: #ECECEA; }
-    section.groups div.half-page ul.notes {
-      position: absolute;
-      top: 50%;
-      margin-top: -25vh;
-      height: 50vh;
-      list-style-type: square;
-      color: #ECECEA;
-      font-size: 35px; }
-      section.groups div.half-page ul.notes li {
-        padding-top: 30px; }
-    @media screen and (max-width: 768px) {
-      section.groups div.half-page {
-        width: 100%; } }
-  section.groups div#gamification {
-    background-color: #558C89; }
-  section.groups div#printers {
-    background-color: #D9853B; }
+section.groups .fp-tableCell {
+  vertical-align: initial !important; }
+section.groups .slide {
+  position: relative; }
+  section.groups .slide h1 {
+    margin-top: 10%;
+    text-align: center;
+    color: #ECECEA; }
+  section.groups .slide ul.notes {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    list-style-type: square;
+    list-style-position: inside;
+    color: #ECECEA;
+    font-size: 35px; }
+    section.groups .slide ul.notes li {
+      text-align: left;
+      padding-top: 30px; }
+section.groups div#gamification {
+  background-color: #558C89; }
+section.groups div#printers {
+  background-color: #D9853B; }
 
 section.three-dimension {
   background-color: #74AFAD; }
   section.three-dimension div.image-container {
-    width: 400px;
-    display: block;
-    position: absolute; }
+    width: 80%;
+    margin: 0 auto; }
     section.three-dimension div.image-container img {
       width: 100%;
       border: 2px solid #ECECEA; }
-  section.three-dimension div.image-container:nth-of-type(1) {
-    right: 220px;
-    top: 70px; }
-  section.three-dimension div.image-container:nth-of-type(2) {
-    width: 760px;
-    left: 20px;
-    top: 110px; }
-  section.three-dimension div.image-container:nth-of-type(3) {
-    width: 480px;
-    right: 60px;
-    bottom: 30px; }
 
 section.scratch {
   background-image: url("../images/scratch.png");
   background-repeat: no-repeat;
   background-size: cover; }
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background-color: #ECECEA; }
