@@ -79,5 +79,39 @@ section.scratch
 		text-align: center
 		color: #D9853B
 		font-size: 70px
+		@media screen and (max-width: 768px)
+			font-size: 50px
+section.plan
+	background-color: #ECECEA
+	div.scratch
+		position: absolute
+		top: 30px
+		left: 50%
+		transform: translateX(-50%)
+		background-image: url('../images/scratch.png')
+		background-position: 5% 5%
+		background-repeat: no-repeat
+		width: 30%
+		height: 30%
+	svg.arrow
+		fill: #D9853B
+		position: relative
+		left: 50%
+		transform: translateX(-50%)
+		top: -70px
+	img.planning
+		max-width: 98%
+		position: absolute
+		top: 48%
+		left: 50%
+		transform: translateX(-50%)
+	@media screen and (max-width: 768px)
+		div.scratch
+			width: 80%
+			top: 80px
+		svg.arrow
+			top: 50px
+		img.planning
+			top: 70%
 #fp-nav ul li a span, .fp-slidesNav ul li a span
 	background-color: #ECECEA
