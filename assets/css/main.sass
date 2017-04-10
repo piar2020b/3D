@@ -27,12 +27,11 @@ section.welcome
 		h1
 			text-align: center
 			font-size: 60px
-section.to-groups, section.learning, section.plan2
+section.to-groups, section.learning, section.plan2, section.printing
 	background-color: #ECECEA
 	line-height: 400px
 	height: 400px
 	text-align: center
-	height: 768px !important
 	overflow: hidden
 	h1
 		color: #D9853B
@@ -73,12 +72,26 @@ section.groups
 		background-color: #D9853B
 section.images
 	background-color: #74AFAD
-	div.image-container
-		max-width: 80%
-		margin: 0 auto
-		img
-			width: 100%
-			border: 2px solid #ECECEA
+	div.slide
+		position: relative
+		height: 100%
+		div.image-container
+			height: 90%
+			width: 88%
+			position: absolute
+			top: 50%
+			left: 50%
+			transform: translate(-50%,-50%)
+			text-align: center
+			img
+				max-height: 100%
+				max-width: 100%
+				border: 2px solid #ECECEA
+				position: relative
+				top: 50%
+				transform: translateY(-50%)
+section.images2
+	background-color: #81F3FD
 section.scratch
 	background-image: url('../images/scratch.png')
 	h1
