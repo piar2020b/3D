@@ -195,16 +195,26 @@ section.quiz
 				bottom: 100px
 				width: 100%
 section.exp
-	blockquote
-		padding: 100px 70px
-		p
-			text-align: center
-		footer
-			color: rgba(0,0,0,0.7)
-			margin: 8px 10px 0 0
-			text-align: right
-		footer:before
-			content: '~ '
+	div.slide
+		blockquote
+			height: 400px
+			position: relative
+			p
+				padding: 0 80px
+				text-align: center
+				position: relative
+				top: 50%
+				transform: translateY(-50%)
+			footer
+				color: rgba(0,0,0,0.7)
+				margin: 8px 10px 0 0
+				text-align: right
+				position: relative
+				top: 50%
+				right: 100px
+				transform: translateY(-50%)
+			footer:before
+				content: '~ '
 	.fp-controlArrow.fp-next
 		border-color: transparent transparent transparent #D9853B
 	.fp-controlArrow.fp-prev
