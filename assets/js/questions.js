@@ -41,42 +41,42 @@ var questions = [{
 	'inCorrect3': 'Malmő',
 	'page': '142'
 }, {
-	'question': 'Meyik német város volt már a 14.században híres Hansa város?',
+	'question': 'Meyik német város volt már a 14.században híres Hanza-város?',
 	'correct': 'Hamburg',
 	'inCorrect1': 'München',
 	'inCorrect2': 'Lipcse',
 	'inCorrect3': 'Hannover',
 	'page': '143'
 }, {
-	'question': 'Melyik Berlin legsűrübben lakott kerülete?',
+	'question': 'Melyik Berlin legsűrűbben lakott kerülete?',
 	'correct': 'Kreuzberg',
 	'inCorrect1': 'Mitte',
 	'inCorrect2': 'Pankow',
 	'inCorrect3': 'Lichtenberg',
 	'page': '143'
 }, {
-	'question': 'Mi volt a kohászat középontja Közép-Angliában?',
+	'question': 'Mi volt a kohászat középpontja Közép-Angliában?',
 	'correct': 'Birmingham',
 	'inCorrect1': 'Liverpool',
 	'inCorrect2': 'Manchester',
 	'inCorrect3': 'London',
 	'page': '143'
 }, {
-	'question': 'Hol van Európa legnagyobb belvizi kikötője?',
+	'question': 'Hol van Európa legnagyobb belvízi kikötője?',
 	'correct': 'Duisburg',
-	'inCorrect1': 'Hammburg',
+	'inCorrect1': 'Hamburg',
 	'inCorrect2': 'Freiburg',
 	'inCorrect3': 'Wolfsburg',
 	'page': '143'
 }, {
-	'question': 'Mikor lett tagja az Egyesült királyság az Európai közösségnek?',
+	'question': 'Mikor lett tagja az Egyesült Királyság az Európai közösségnek?',
 	'correct': '1973',
 	'inCorrect1': '1957',
 	'inCorrect2': '1975',
 	'inCorrect3': '1981',
 	'page': '144'
 }, {
-	'question': 'Az alábbi városk közül, mely központja az autógyártásnak?',
+	'question': 'Az alábbi városok közül, mely központja az autógyártásnak?',
 	'correct': 'Wolfsburg',
 	'inCorrect1': 'Duisburg',
 	'inCorrect2': 'Hamburg',
@@ -97,8 +97,8 @@ var questions = [{
 	'inCorrect3': 'dán',
 	'page': '147'
 }, {
-	'question': 'Milyen nemzetiség a Bosch?',
-	'correct': 'Német ',
+	'question': 'Milyen nemzetiségű a Bosch?',
+	'correct': 'Német',
 	'inCorrect1': 'Holland',
 	'inCorrect2': 'Belga',
 	'inCorrect3': 'Angol',
@@ -119,27 +119,27 @@ var questions = [{
 	'page': '147'
 }, {
 	'question': 'Milyen magas a munkanélküliség Spanyolországban?',
-	'correct': '24',
-	'inCorrect1': '19',
-	'inCorrect2': '20',
-	'inCorrect3': '8',
+	'correct': '24%',
+	'inCorrect1': '19%',
+	'inCorrect2': '20%',
+	'inCorrect3': '8%',
 	'page': '148'
 }, {
-	'question': 'Melyik  Európai országból érkezik manapság a legtöbb bevándorló Spanyolországba',
+	'question': 'Melyik  Európai országból érkezik manapság a legtöbb bevándorló Spanyolországba?',
 	'correct': 'Románia',
 	'inCorrect1': 'Magyarország',
 	'inCorrect2': 'Szlovákia',
 	'inCorrect3': 'Ukrajna',
 	'page': '148'
 }, {
-	'question': 'Kb hány olasz telepedett le az USA-ban a 19.század óta?',
+	'question': 'Megközelítőleg hány olasz telepedett le az USA-ban a 19.század óta?',
 	'correct': '12 millió',
 	'inCorrect1': '15 millió',
 	'inCorrect2': '8 millió',
 	'inCorrect3': '6 millió',
 	'page': '149'
 }, {
-	'question': 'Ez jellemzi a mediterrán gazdálkodást?',
+	'question': 'Mi jellemzi a mediterrán gazdálkodást?',
 	'correct': 'Zöldség és gyümölcstermelés',
 	'inCorrect1': 'Búzatermelés',
 	'inCorrect2': 'Baromfitenyésztés',
@@ -174,7 +174,7 @@ var questions = [{
 	'inCorrect3': '12.',
 	'page': '151'
 }, {
-	'question': 'Hanyadik helyen áll Svájc a világ országai közül, az emberi fejlődési index tekintetében?',
+	'question': 'Hányadik helyen áll Svájc a világ országai közül, az emberi fejlődési index tekintetében?',
 	'correct': '3.',
 	'inCorrect1': '10.',
 	'inCorrect2': '1.',
@@ -188,7 +188,7 @@ var questions = [{
 	'inCorrect3': '28.',
 	'page': '151'
 }, {
-	'question': 'Hanyadik helyen áll Svájc a világ országai közül, a  Világgazdasági fórum, versenyképességi lista tekintetében?',
+	'question': 'Hányadik helyen áll Svájc a világ országai közül, a Világgazdasági fórum, versenyképességi lista tekintetében?',
 	'correct': '1.',
 	'inCorrect1': '3.',
 	'inCorrect2': '5.',
@@ -202,35 +202,35 @@ var questions = [{
 	'inCorrect3': '13.',
 	'page': '151'
 }, {
-	'question': 'A népesség hány %-a francia ajkú, Svájcban?',
+	'question': 'A népesség hány százaléka francia ajkú, Svájcban?',
 	'correct': '22,6',
 	'inCorrect1': '25,8',
 	'inCorrect2': '20,2',
 	'inCorrect3': '20,5',
 	'page': '153'
 }, {
-	'question': 'A népesség hány %-a német ajkú Svájcban?',
+	'question': 'A népesség hány százaléka német ajkú Svájcban?',
 	'correct': '64,5',
 	'inCorrect1': '60,7',
 	'inCorrect2': '40,4',
 	'inCorrect3': '70,2',
 	'page': '153'
 }, {
-	'question': 'A népesség hány %-a olasz ajkú Svájcban?',
+	'question': 'A népesség hány százaléka olasz ajkú Svájcban?',
 	'correct': '8,3',
 	'inCorrect1': '10',
 	'inCorrect2': '20',
 	'inCorrect3': '15',
 	'page': '153'
 }, {
-	'question': 'A népesség hány %-a rétoromán ajkú Svájcban?',
+	'question': 'A népesség hány százaléka rétoromán ajkú Svájcban?',
 	'correct': '0,5',
 	'inCorrect1': '0,2',
 	'inCorrect2': '1',
 	'inCorrect3': '1,5',
 	'page': '153'
 }, {
-	'question': 'A Svájci népesség hány %-a él Mittellandon?',
+	'question': 'A Svájci népesség hány százaléka él Mittellandon?',
 	'correct': '75',
 	'inCorrect1': '50',
 	'inCorrect2': '85',
@@ -294,10 +294,10 @@ var questions = [{
 	'page': '153'
 }, {
 	'question': 'Melyik termék teszi ki Svájc mezőgazdasági exportjának két harmadát?',
-	'correct': 'sajt',
-	'inCorrect1': 'csokoládé',
-	'inCorrect2': 'tej',
-	'inCorrect3': 'joghurt',
+	'correct': 'Sjt',
+	'inCorrect1': 'Csokoládé',
+	'inCorrect2': 'Tej',
+	'inCorrect3': 'Joghurt',
 	'page': '153'
 }, {
 	'question': 'Hányadik a világ vállalatai közül a Nestlé az árbevétele alapján?',
@@ -309,16 +309,16 @@ var questions = [{
 }, {
 	'question': 'Milyen jelentős ipari termelés van Baselben?',
 	'correct': 'Gyógyszer',
-	'inCorrect1': 'óra',
-	'inCorrect2': 'autó',
-	'inCorrect3': 'csokoládé',
+	'inCorrect1': 'Óra',
+	'inCorrect2': 'Autó',
+	'inCorrect3': 'Csokoládé',
 	'page': '154'
 }, {
 	'question': 'Melyik ásványból van a legtöbb Ausztriában?',
-	'correct': 'magnezit',
-	'inCorrect1': 'kova',
-	'inCorrect2': 'bazalt',
-	'inCorrect3': 'kőszén',
+	'correct': 'Magnezit',
+	'inCorrect1': 'Kova',
+	'inCorrect2': 'Bazalt',
+	'inCorrect3': 'Kőszén',
 	'page': '154'
 }, {
 	'question': 'Melyik Európa legmagasabban fekvő városa?',
@@ -332,7 +332,7 @@ var questions = [{
 	'correct': 'Banki',
 	'inCorrect1': 'Egészségügyi',
 	'inCorrect2': 'Vendéglátóipari',
-	'inCorrect3': 'oktatási',
+	'inCorrect3': 'Oktatási',
 	'page': '155'
 }, {
 	'question': 'Melyik osztrák város híres az ünnepi játékairól?',
@@ -370,7 +370,7 @@ var questions = [{
 	'inCorrect3': '250km',
 	'page': '157'
 }, {
-	'question': 'Melyik évben vették körbe drótokkal NY Berlint?',
+	'question': 'Melyik évben vették körbe drótokkal NY-Berlint?',
 	'correct': '1961',
 	'inCorrect1': '1955',
 	'inCorrect2': '1948',
@@ -412,21 +412,21 @@ var questions = [{
 	'inCorrect3': 'Verespatak (magyarország)',
 	'page': '157'
 }, {
-	'question': 'Mikor krült cianiddal szennyezett víz a Tiszába?',
+	'question': 'Mikor került cianiddal szennyezett víz a Tiszába?',
 	'correct': '2000',
 	'inCorrect1': '2001',
 	'inCorrect2': '2002',
-	'inCorrect3': '20003',
+	'inCorrect3': '2003',
 	'page': '157'
 }, {
 	'question': 'Melyik településről került a cianid a Tiszába?',
 	'correct': 'Nagybánya',
-	'inCorrect1': 'Verespatak ',
+	'inCorrect1': 'Verespatak',
 	'inCorrect2': 'Szolnok',
 	'inCorrect3': 'Szeged',
 	'page': '157'
 }, {
-	'question': 'A régió országai közül melyikben a legmagasabb a széndioxid kibocsátás?',
+	'question': 'A régió országai közül melyikben a legmagasabb a szén-dioxid kibocsátás?',
 	'correct': 'Lengyelország',
 	'inCorrect1': 'Csehország',
 	'inCorrect2': 'Szlovákia',
@@ -448,10 +448,10 @@ var questions = [{
 	'page': '158'
 }, {
 	'question': 'A 2004-es csatlakozás következtében mennyivel nőtt a GDP? ',
-	'correct': '5',
-	'inCorrect1': '8',
-	'inCorrect2': '10',
-	'inCorrect3': '3',
+	'correct': '5%',
+	'inCorrect1': '8%',
+	'inCorrect2': '10%',
+	'inCorrect3': '3%',
 	'page': '158'
 }, {
 	'question': 'Az összlakosság hány százaléka magyar Szlovákiában?',
@@ -503,7 +503,7 @@ var questions = [{
 	'inCorrect3': 'Szlovénia',
 	'page': '159'
 }, {
-	'question': 'Mely lengyel városban van köolajfinomító?',
+	'question': 'Mely lengyel városban van kőolajfinomító?',
 	'correct': 'Gdansk',
 	'inCorrect1': 'Krakkó',
 	'inCorrect2': 'Bielsko Biala',
@@ -539,10 +539,10 @@ var questions = [{
 	'page': '161'
 }, {
 	'question': 'Melyik növény Csehország főbb terménye?',
-	'correct': 'komló',
-	'inCorrect1': 'árpa',
-	'inCorrect2': 'búza',
-	'inCorrect3': 'kukorica ',
+	'correct': 'Komló',
+	'inCorrect1': 'Árpa',
+	'inCorrect2': 'Búza',
+	'inCorrect3': 'Kukorica',
 	'page': '162'
 }, {
 	'question': 'Melyik országban helyezkedik el Karlovy Vary?',
@@ -658,10 +658,10 @@ var questions = [{
 	'page': '168'
 }, {
 	'question': 'Ukrajna hány százaléka ukrán?',
-	'correct': '0,78',
-	'inCorrect1': '0,72',
-	'inCorrect2': '0,87',
-	'inCorrect3': '0,91',
+	'correct': '78',
+	'inCorrect1': '72',
+	'inCorrect2': '87',
+	'inCorrect3': '91',
 	'page': '169'
 }, {
 	"question": "Melyik város az Európai Unió központja?",
@@ -685,7 +685,7 @@ var questions = [{
 	'inCorrect3': '3',
 	"page": '132'
 }, {
-	'question': 'Hol írták alá az első, európai Közösséget megalapító szerződést?',
+	'question': 'Hol írták alá az első, Európai Közösséget megalapító szerződést?',
 	'correct': 'Róma',
 	'inCorrect1': 'Párizs',
 	'inCorrect2': 'Krakkó',
@@ -713,7 +713,7 @@ var questions = [{
 	'inCorrect3': '800 millió',
 	"page": '132'
 }, {
-	'question': 'A  közvetlen külföldi tőkebefektetéseknek hány %-a kötődik az eu-hoz?',
+	'question': 'A  közvetlen külföldi tőkebefektetéseknek hány százaléka kötődik az eu-hoz?',
 	'correct': '20',
 	'inCorrect1': '40',
 	'inCorrect2': '5',
@@ -730,12 +730,12 @@ var questions = [{
 	'question': 'Az európai együttműködésben milyen tényezők játszottak szerepet?',
 	'correct': 'Politika és gazdaság',
 	'inCorrect1': 'Gazdaság',
-	'inCorrect2': 'Politika ',
+	'inCorrect2': 'Politika',
 	'inCorrect3': 'Hadászat',
 	"page": '133'
 }, {
 	'question': 'Svájcnak milyn státusza van?',
-	'correct': 'nem EU-tag, schengeni ország',
+	'correct': 'Nem EU-tag, schengeni ország',
 	'inCorrect1': 'EU-tag, schengeni ország',
 	'inCorrect2': 'Nem EU-tag, nem schengeni ország',
 	'inCorrect3': 'EU-tag, nem schengeni ország',
@@ -763,10 +763,10 @@ var questions = [{
 	"page": '133'
 }, {
 	'question': 'Mi az az EGK?',
-	'correct': 'Európai gazdasági közösség',
-	'inCorrect1': 'Európai gazdasági közppont',
-	'inCorrect2': 'Energetikai gazdasági kereskedők',
-	'inCorrect3': 'Egyetemes genetikai közösség',
+	'correct': 'Európai Gazdasági Közösség',
+	'inCorrect1': 'Európai Gazdasági Központ',
+	'inCorrect2': 'Energetikai Gazdasági Kereskedők',
+	'inCorrect3': 'Egyetemes Genetikai Közösség',
 	"page": '133'
 }, {
 	'question': 'Mióta nincsenek határok?',
