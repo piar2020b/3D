@@ -20,6 +20,85 @@
 		<link type="text/css" rel="stylesheet" href="assets/css/jquery.fullPage.css"/>
 		<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"/>
 		<link type="text/css" rel="stylesheet" href="assets/css/main.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="assets/js/jquery.fullpage.extensions.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#fullpage').fullpage({
+					//Navigation
+					menu: '#menu',
+					lockAnchors: false,
+					anchors:['hello', 'osztodas', 'ket-csoport', 'tanulas', 'tanulás-kepek', 'osszevisszasag', 'tervek', 'alapotlet', 'kviz', 'cel','leiras','tervezés-kepek','beszamolok','nyomtatas','nyomtatas-kepek','video','tovabbfejlesztes','globalis-problemak','miniszterek','tovabbi-otletek', 'resztvevok'],
+					navigation: false,
+					navigationPosition: 'right',
+					navigationTooltips: ['firstSlide', 'secondSlide'],
+					showActiveTooltip: false,
+					slidesNavigation: true,
+					slidesNavPosition: 'bottom',
+
+					//Scrolling
+					css3: true,
+					scrollingSpeed: 600,
+					autoScrolling: true,
+					fitToSection: true,
+					fitToSectionDelay: 1000,
+					scrollBar: false,
+					easing: 'easeInOutCubic',
+					easingcss3: 'ease',
+					loopBottom: false,
+					loopTop: false,
+					loopHorizontal: true,
+					continuousVertical: false,
+					continuousHorizontal: false,
+					scrollHorizontally: false,
+					interlockedSlides: false,
+					dragAndMove: false,
+					offsetSections: false,
+					resetSliders: false,
+					fadingEffect: false,
+					normalScrollElements: '#element1, .element2',
+					scrollOverflow: false,
+					scrollOverflowReset: false,
+					scrollOverflowOptions: null,
+					touchSensitivity: 15,
+					normalScrollElementTouchThreshold: 5,
+					bigSectionsDestination: null,
+
+					//Accessibility
+					keyboardScrolling: true,
+					animateAnchor: true,
+					recordHistory: true,
+
+					//Design
+					controlArrows: true,
+					verticalCentered: true,
+					sectionsColor : ['#ccc', '#fff'],
+					paddingTop: '0',
+					paddingBottom: '0',
+					fixedElements: '#header, .footer',
+					responsiveWidth: 768,
+					responsiveHeight: 0,
+					responsiveSlides: true,
+					parallax: false,
+					parallaxOptions: {type: 'reveal', percentage: 100, property: 'translate'},
+
+					//Custom selectors
+					sectionSelector: '.section',
+					slideSelector: '.slide',
+
+					lazyLoading: true,
+
+					//events
+					onLeave: function(index, nextIndex, direction){},
+					afterLoad: function(anchorLink, index){},
+					afterRender: function(){},
+					afterResize: function(){},
+					afterResponsive: function(isResponsive){},
+					afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+					onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<main id="fullpage">
@@ -192,84 +271,5 @@
 				</div>
 			</section>
 		</main>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="assets/js/jquery.fullpage.extensions.min.js"></script>
-		<script>
-			$(document).ready(function() {
-				$('#fullpage').fullpage({
-					//Navigation
-					menu: '#menu',
-					lockAnchors: false,
-					anchors:['hello', 'osztodas', 'ket-csoport', 'tanulas', 'tanulás-kepek', 'osszevisszasag', 'tervek', 'alapotlet', 'kviz', 'cel','leiras','tervezés-kepek','beszamolok','nyomtatas','nyomtatas-kepek','video','tovabbfejlesztes','globalis-problemak','miniszterek','tovabbi-otletek', 'resztvevok'],
-					navigation: false,
-					navigationPosition: 'right',
-					navigationTooltips: ['firstSlide', 'secondSlide'],
-					showActiveTooltip: false,
-					slidesNavigation: true,
-					slidesNavPosition: 'bottom',
-
-					//Scrolling
-					css3: true,
-					scrollingSpeed: 600,
-					autoScrolling: true,
-					fitToSection: true,
-					fitToSectionDelay: 1000,
-					scrollBar: false,
-					easing: 'easeInOutCubic',
-					easingcss3: 'ease',
-					loopBottom: false,
-					loopTop: false,
-					loopHorizontal: true,
-					continuousVertical: false,
-					continuousHorizontal: false,
-					scrollHorizontally: false,
-					interlockedSlides: false,
-					dragAndMove: false,
-					offsetSections: false,
-					resetSliders: false,
-					fadingEffect: false,
-					normalScrollElements: '#element1, .element2',
-					scrollOverflow: false,
-					scrollOverflowReset: false,
-					scrollOverflowOptions: null,
-					touchSensitivity: 15,
-					normalScrollElementTouchThreshold: 5,
-					bigSectionsDestination: null,
-
-					//Accessibility
-					keyboardScrolling: true,
-					animateAnchor: true,
-					recordHistory: true,
-
-					//Design
-					controlArrows: true,
-					verticalCentered: true,
-					sectionsColor : ['#ccc', '#fff'],
-					paddingTop: '0',
-					paddingBottom: '0',
-					fixedElements: '#header, .footer',
-					responsiveWidth: 768,
-					responsiveHeight: 0,
-					responsiveSlides: true,
-					parallax: false,
-					parallaxOptions: {type: 'reveal', percentage: 100, property: 'translate'},
-
-					//Custom selectors
-					sectionSelector: '.section',
-					slideSelector: '.slide',
-
-					lazyLoading: true,
-
-					//events
-					onLeave: function(index, nextIndex, direction){},
-					afterLoad: function(anchorLink, index){},
-					afterRender: function(){},
-					afterResize: function(){},
-					afterResponsive: function(isResponsive){},
-					afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
-					onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
-				});
-			});
-		</script>
 	</body>
 </html>
